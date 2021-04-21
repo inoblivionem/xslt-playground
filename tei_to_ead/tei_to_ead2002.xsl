@@ -3,7 +3,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0"
     xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
-
+    
+<!-- I messed up and did that based on ead 2002 oops -->
+    
     <xsl:template match="tei:TEI">
         <xsl:result-document href="ead2002fromtei.xml" method="xml" indent="yes"
             doctype-system="ead.dtd"
