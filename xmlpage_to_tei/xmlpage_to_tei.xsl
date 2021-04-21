@@ -8,12 +8,12 @@
     <xsl:output method="xml" indent="yes" encoding="ISO-8859-1"/>
     
     <xsl:template match="/">
-        <xsl:result-document href="../out/teifromxmlpage.xml" exclude-result-prefixes="xi xsi pc">
+        <xsl:result-document href="teifromxmlpage.xml" exclude-result-prefixes="xi xsi pc">
             <TEI>
                 <teiHeader>
                     <fileDesc>
                         <titleStmt>
-                            <title><xsl:value-of select="substring-before(substring-after(document-uri(),'source/'),'.xml')"/></title>
+                            <title><xsl:value-of select="substring-before(substring-after(document-uri(),'xmlpage_to_tei/'),'.xml')"/></title>
                             <author><xsl:value-of select="pc:PcGts/pc:Metadata/pc:Creator"/>
                             </author>
                         </titleStmt>
