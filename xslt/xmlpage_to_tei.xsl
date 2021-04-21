@@ -42,5 +42,6 @@
             </TEI>
         </xsl:result-document>
     </xsl:template>
+    <!-- pc:PcGts/pc:Page/pc:TextRegion/pc:TextLine/pc:Baseline's missing, I didn't know where to put it -->
 
 </xsl:stylesheet>
