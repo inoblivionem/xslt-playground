@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead
+  PUBLIC "+//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN" "ead.dtd">
+<ead>
+   <eadheader>
+      <eadid>12148/bpt6k123972f</eadid>
+      <filedesc>
+         <titlestmt>
+            <titleproper>Journal pour toutes : paraissant le samedi, à Paris, et consacré aux intêrets féminins Journal pour toutes Journal pour toutes paraissant le samedi, à Paris, et consacré aux intêrets féminins</titleproper>
+            <author>Eugénie Niboyet, Jenny Sabatier, Comtesse Dash, Comtesse Dash, </author>
+         </titlestmt>
+         <publicationstmt>
+            <publisher>Eugénie Niboyet, Léon Richer, </publisher>
+            <date>2020-04</date>
+            <address>
+               <addressline>Paris (46 rue de la Victoire)</addressline>
+            </address>
+         </publicationstmt>
+      </filedesc>
+      <profiledesc>
+         <creation>
+            <date>2020-04</date>
+         </creation>
+      </profiledesc>
+   </eadheader>
+   <archdesc level="item">
+      <did>
+         <repository>
+            <corpname>Bibliothèque nationale de France<subarea>Littérature et art department, Z9194-9195</subarea>
+            </corpname>
+         </repository>
+         <unitid>N°53, 28/10/1865</unitid>
+         <unittitle>Journal pour toutes du 28/10/1865</unittitle>
+         <unitdate>1865-10-28</unitdate>
+         <physdesc>
+            <extent>32 cm</extent>
+         </physdesc>
+         <abstract>
+                Journal hebdomadaire féministe
+            </abstract>
+         <langmaterial>
+            <language>français</language>
+         </langmaterial>
+      </did>
+      <dsc>
+         <c01 level="series">
+            <did>
+               <unitid/>
+               <unittitle>JOURNAL POUR TOUTES Parissant le Samedi, à Paris, et consacré aux interets
+                        feminin, 28 OCTOBRE 1865</unittitle>
+            </did>
+            <c02 level="subseries">
+               <did>
+                  <unitid>jpt-28-10-1865-div1</unitid>
+                  <unittitle>A nos Abonnées</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unitid>jpt-28-10-1865-div2</unitid>
+                  <unittitle>Ma profession de foi</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unitid>oiseauxvoyageurs-1</unitid>
+                  <unittitle>Les oiseaux voyageurs, chapitre 1</unittitle>
+               </did>
+            </c02>
+            <c02 level="subseries">
+               <did>
+                  <unitid>oiseauxvoyageurs-2</unitid>
+                  <unittitle>Les oiseaux voyageurs, chapitre 2</unittitle>
+               </did>
+            </c02>
+         </c01>
+      </dsc>
+   </archdesc>
+</ead>

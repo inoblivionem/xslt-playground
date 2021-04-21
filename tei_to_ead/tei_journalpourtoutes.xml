@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>Digital edition Journal pour toutes</title>
+                <author>
+                    <persName>ino b</persName>
+                    <ref target="https://github.com/inoblivionem/"></ref>
+                </author>
+            </titleStmt>
+
+            <!-- edition choices -->
+            <editionStmt>
+                <p>Only the 4 first entries of the newspaper of Oct 28, 1865 are encoded.</p>
+            </editionStmt>
+
+
+            <!-- publisher of the current TEI file -->
+            <publicationStmt>
+                <publisher>Centre des Etudes Supérieures de la Renaissance</publisher>
+                <pubPlace>Tours, France</pubPlace>
+                <date when="2020-04"/>
+                <availability status="free">
+                    <licence target="https://creativecommons.org/licenses/by/3.0/fr/"/>
+                </availability>
+                
+            </publicationStmt>
+
+            <!-- notes about the original source -->
+            <notesStmt>
+                <note type="infos">
+                    <p>The first issue has for subtitle "paraissant tous les samedis" whereas number 2 and 3 has "paraissant le samedi, à Paris"</p>
+                </note>
+            </notesStmt>
+
+            <!-- description of both sources : original newspaper source and BNF-digitized-file -->
+            <sourceDesc>
+                <msDesc>
+                    <!-- manuscript description -->
+                    <msIdentifier>
+                        <institution>Bibliothèque nationale de France</institution>
+                        <repository>Littérature et art department, Z9194-9195</repository>
+                    </msIdentifier>
+                    <head>Journal pour toutes : paraissant le samedi, à Paris, et consacré aux
+                        intêrets féminins / directrice Eugénie Niboyet</head>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>32 cm</extent>
+                                <foliation>Foliation : N° 1 (Oct 29, 1864)-n° 124 (Dec 21,
+                                    1867) [?]</foliation>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <!-- description of each issue encoded in my TEI file -->
+                    <msPart>
+                        <msIdentifier>
+                            <idno>N°53, 28/10/1865</idno>
+                        </msIdentifier>
+                        <msContents>
+                            <msItem>
+                                <locus from="7" to="15"/>
+                                <title xml:id="jpt-28-10-1865">Journal pour toutes du 28/10/1865</title>
+                                <docDate when="1865-10-28"></docDate>
+                            </msItem>
+                        </msContents>
+                    </msPart>
+                </msDesc>
+
+                <!-- BNF-digitized-file description -->
+                <bibl type="numerisation">
+                    <title level="j" type="main">Journal pour toutes : paraissant le samedi, à Paris, et consacré aux intêrets féminins</title>
+                    <title level="j" type="short">Journal pour toutes</title>
+                    <publisher>Bibliothèque nationale de France</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="2008-06-25"/>
+                    <extent>1598 vues</extent>
+                    <availability status="restricted">
+                        <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/"/>
+                    </availability>
+                    <idno type="URI">https://gallica.bnf.fr/ark:/12148/bpt6k123972f</idno>
+                    <idno type="ark">12148/bpt6k123972f</idno>
+                </bibl>
+
+                <!-- original newspaper description -->
+                <bibl type="papier">
+                    <title type="main">Journal pour toutes</title>
+                    <title type="sub">paraissant le samedi, à Paris, et consacré aux intêrets féminins</title>
+                    <editor>Eugénie Niboyet</editor>
+                    <editor>Léon Richer</editor>
+                    <pubPlace>Paris (46 rue de la Victoire)</pubPlace>
+                    <availability status="unknown">
+                        <p>Licence inconnue</p>
+                    </availability>
+                </bibl>
+            </sourceDesc>
+
+        </fileDesc>
+
+        <!-- addings -->
+        <profileDesc>
+            <abstract xml:lang="fre">
+                <p>Journal hebdomadaire féministe</p>
+            </abstract>
+            <abstract xml:lang="eng">
+                <p>Feminist weekly newspaper</p>
+            </abstract>
+            <!-- Gallica's keywords -->
+            <textClass>
+                <keywords scheme="#fr_RAMEAU">
+                    <term ref="https://catalogue.bnf.fr/ark:/12148/cb12443214x">Niboyet, Eugénie
+                        (1799-1882)</term>
+                    <term ref="https://catalogue.bnf.fr/ark:/12148/cb12459825w">Richer, Léon
+                        (1824-1911)</term>
+                 
+                </keywords>
+                <keywords scheme="dc">
+                    <term>Féminisme</term>
+                    <term>Hebdomadaire</term>
+                    <term>Second Empire</term>
+                </keywords>
+            </textClass>
+            <!-- language -->
+            <langUsage>
+                <language ident="fr-FR">français</language>
+            </langUsage>
+        </profileDesc>
+
+        <!-- description of the editorial work -->
+        <encodingDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Le texte n'a pas été corrigé et toutes les erreurs dans le texte originel
+                        sont conservées. Certains éléments sont illisibles et une lecture est
+                        proposée.</p>
+                </correction>
+            </editorialDecl>
+        </encodingDesc>
+
+        <!-- changes' history -->
+        <revisionDesc>
+            <change when="2020-04-17">File creation, first encoding</change>
+            <change when="2020-04-27">Adding metadata (editionStmt, encodingDesc)</change>
+            <change when="2021-04-21">File simplification for my github xslt-playground</change>
+        </revisionDesc>
+
+    </teiHeader>
+     <text>
+        <front>
+            <div xml:id="jpt-28-10-1865-entete">
+                <dateline>
+                    <seg type="issue">N°53, 2ème ANNÉE</seg>
+                    <seg type="prix">Prix : 10 Centimes</seg>
+                    <date>28 OCTOBRE 1865</date>
+                </dateline>
+            </div>
+
+            <titlePage xml:id="jpt-28-10-1865-frontespice">
+                <docTitle>
+                    <titlePart type="main">JOURNAL POUR TOUTES</titlePart>
+                    <titlePart type="sub">Parissant le Samedi, à Paris, et consacré aux interets
+                        feminin</titlePart>
+                </docTitle>
+                <figure>
+                    <figDesc>Image avec plusieurs femmes dans leurs occupations de vie</figDesc>
+                </figure>
+            </titlePage>
+
+            <div xml:id="jpt-28-10-1865-abbo">
+                <head>Prix de l'abonnement pour un an</head>
+                <list>
+                    <item>Modes ou musique, Avec la gravure <list>
+                            <item>Paris 12 fr.</item>
+                            <item>Départements 15 fr.</item>
+                            <item>Algérie 15 fr.</item>
+                        </list>
+                    </item>
+                    <item>Sans anexexs : Paris 6 fr. 50; province 8 fr</item>
+                </list>
+            </div>
+
+            <div xml:id="jpt-28-10-1865-redac">
+                <head>Rédaction, administration</head>
+                <p>46, aveune de la Victoire, 46.</p>
+                <p>Les lettres et paquets doivent être affranchis.</p>
+            </div>
+
+            <div xml:id="jpt-28-10-1865-aboetran">
+                <head>Abonnement pour l'étranger</head>
+                <p>(le port en sus)</p>
+                <list>
+                    <item>Belgique, chez M. Beaugrand, Directeur de la Librairie Contemporaine, à
+                        Bruxelles.</item>
+                    <item>Angleterre, chez M. Gettliffe, 26, Dean street, Soho London.</item>
+                </list>
+            </div>
+
+            <div xml:id="jpt-28-10-1865-voiepub">
+                <head>Pour la vente sur la voie publique, chez M. Defaux, 8, rue du
+                    Croissant.</head>
+            </div>
+
+            <div xml:id="jpt-28-10-1865-table-mat">
+                <head>Sommaire</head>
+                <list>
+                    <item><ref target="#jpt-28-10-1865-div1">A nos abonnées, <persName
+                                ref="nom.xml#eniboyet">Eugénie Niboyet</persName></ref></item>
+                    <item><ref target="#jpt-28-10-1865-div2">Ma profession de foi, <persName
+                                ref="nom.xml#jsabatier">Jenny Sabatier</persName></ref></item>
+                    <item><ref target="#oiseauxvoyageurs-1">Les oiseaux voyageurs, <persName
+                                ref="nom.xml#comtessedash">Comtesse Dash</persName></ref></item>
+                    <item><ref target="#oiseauxvoyageurs-2">Les oiseaux voyageurs, <persName
+                                ref="nom.xml#comtessedash">Comtesse Dash</persName></ref></item>
+                </list>
+            </div>
+        </front>
+        
+        <body>
+            <div xml:id="jpt-28-10-1865-div1" type="article">
+                <head>A nos Abonnées</head>
+                <docAuthor ref="nom.xml#eniboyet">Eugénie Niboyet</docAuthor>
+                <p> Mesdames et Messieurs, </p>
+                <p>Un journal ne se crée qu'au prix des plus grands sacrifices. Le dévouement ne
+                    suffit pas seul à garantir le succès de la plus honorabble entreprise : c'est à
+                    prix d'argent qu'on la fait réussir. J'ai dû semer beaucoup avant de récolter,
+                    et je compte, chères lectrices, comme chers lecteurs, sur le renouvellement de
+                    vos abonnements pour entrevoir le succès auquel j'aspire. J eme suis donné pour
+                    associée une femme jeune, intelligente, active qui me secondera et se fera aimer
+                    de vous par les rares qualités de son coeur et de son esprit. Vous avez eu
+                    confiance en mes promesses, continuez-nous votre bienveillant intérêt et
+                    dites-vous que le but constant des rédactrices de cette feuille est d'être
+                    utiles aux femmes <hi rend="italics">individuellement</hi> et <hi rend="italics"
+                        >collectivement</hi>; telle a été ma pensée unique, et depuis une année je
+                    n'ai pas distrait unne heure des devoirs que je me suis imposés.</p>
+                <p>En acceptant une associée, je donne de doubles garanties à l'avenir de mon
+                    entreprise. Soyez avec nous, Mesdames, et que chacune dans son cercle intime,
+                    contribue à notre succès.</p>
+                <p>Nous comptons sur votre concours, nous attendons vos réabonnements.</p>
+                
+            </div>
+            <div xml:id="jpt-28-10-1865-div2" type="article">
+                <head>Ma profession de foi</head>
+                <docAuthor ref="nom.xml#jsabatier">Jenny Sabatier</docAuthor>
+                <p>Nous entrons dans une nouvelle année, mais non dans une nouvelle voie ; le but
+                    vers lequel tendent tous les efforts du journal reste le même ; et c'est pour
+                    l'atteindre plus sûrement que nous venons de former une association dans
+                    laquelle, s'il y a deux plumes, il n'y a qu'un coeur ; s'il y a deux bras, il
+                    n'y a qu'une idée et qu'une volonté ; l'intérêt des femmes et leur régénération
+                    sociale.</p>
+                <p>Déjà, de tous côtés, des vois s'élèvent répondant à la nôtre pour proclamer la
+                    nécessité de cette moralisation intellectuelle ; déjà, de tous côtés, les femmes
+                    sentent leur propre péril, ne pouvant isolément remédier au mal, comprenant
+                    l'influence funeste qu'a eue leur division incessanté, et les bienfaits d'une
+                    association, nous tendent leurs mains fraternelles en nous criant : C'est bien !
+                    nous commes des vôtes ; déjà, vous l'avez vu, grâce à l'initiative de la
+                    fondatrice de ce journal, une société de protection pour les femmes se constitue
+                    et comtpe dans son sein les plus grands noms, comme au-dehors les plus
+                    chaleureuses symathies. Voilà donc l'idée semée qui gagne. La lance, encore
+                    inculte hier, est défrichée aujourd'hui ; le bon grain y germe ; demain, il sera
+                    en pleine floraison ; bientôt l'avenir en donnera les fruits.</p>
+                <p>C'est donc un peu de persévérance, un peu d'aide qu'il nous faut encore ; la
+                    persévérance, nous la possédons, l'aide, Mesdames, nous vous la demandons.</p>
+                <p>Pour assurer le but d'une oeuvre morale, il faut assurer d'abord son côté
+                    matériel.</p>
+                <p>C'est en vain qu'un vaisseau, chargé de porter à un mnde nouveau et plongé dans
+                    les ténèbres de l'ignorance les lumiètres de l'esprit et le soleil de l'âme...
+                    la religion et l'instruction... partira plein d'espoir et de foi en sa sublime
+                    mission, comptant dans son sein les hommes les plus remarquables, les plus
+                    éclairés, les plus dévoués, s'il n'a pas assuré avant son départ la solidité de
+                    ses cordages, la flexibiité de ses voiles, la qualité du bois de sa
+                    construction, la sûreté des vivres, quels que soient son noble but et ses
+                    espérances, malgré le ciel qui lui sourit, les vents qui lui sont propices, le
+                    courage de ceux qui le guident, il sombrera à peine sorti du port, ou il ira
+                    périr de misère et de faim dans la nuit de l'Océan.</p>
+                <p>Aidez-nous, Mesdames, en nous faisant des prosélytes, à sauvegarder le côté
+                    matériel de notre union ; et notre barque, portant une grande oeuvre
+                    humanitaire, abordera, saine et sauve au rivage de l'avenir où l'attend
+                    infailliblement le succès !...</p>
+                <p>L'opinion qui fait les femmes frivoles est injuste et elles en rappellent tous
+                    les jours ; elles ont un côté sérieux et profond qu'on a laissé dormir trop
+                    longtemps dans une coupable inaction ; on leur a tant répété que l'insouciance,
+                    la parure et le sourire étaient leur seul lot en ce monde, leur plus grand
+                    charme et leur souveraine beauté, qu'elles <unclear>s'en</unclear> sont
+                    persuadées et qu'elles ont oublié que Dieu leur a donné les plus beaux rôles
+                    ici-bas : la mère et la soeur de charité !... Elles ont oublié qu'elles font les
+                    nations avec le sang de leur coeur, qu'elles font l'âme des peuples avec la
+                    substance de leur âme; qu'elles ont l'humanité toute entière entre leurs mains
+                    avec l'enfant qui épelle sur les genoux les premières lettres de la vie et qu'il
+                    dépend d'elles que ces premières lettres forment les mots <hi rend="italics"
+                        >honneur</hi>, <hi rend="italics">devoir</hi> et <hi rend="italics"
+                        >charité</hi> : elles ont oublié que le lait moral que sucent ces jeunes
+                    intelligences fera un jour des citoyens pour l'Etat, des défenseurs pour la
+                    patrie, des apôtres pour la religion, des travailleurs pour l'édifice social ;
+                    qu'il faut que la source soit pure pour que les eaux qui en découlent ne soient
+                    pas malfaisantes ; qu'il dépend des femmes que la première substance de la vie
+                    morale de l'homme porte un jour des fruits régénérateurs, et soit le rincipe
+                    vivifiant, impérissable, qui soutient dans la lutte, qui mène au bien et qui
+                    donne la force de vaincre le mal ; elles ont oublié tout cela, aux fades
+                    discours de la flatterie, dans le miroir reflétant leur belle robe et leur
+                    sourire fascinateur ; mais il y a toujours un sentiment de la grandeur de leur
+                    mission qui veille au coeur des femmes sous leur apparente indifférence ; il
+                    s'agit seulement de le réveiller... Eh bien ! voici le moment... Il faut que les
+                    femmes se souviennent que c'est l'âme saine et forte des mères qui fait la
+                    valeur des fils ; que compagnes de l'homme, elles doivent être son aide dans les
+                    travaux, sa force dans l'épreuve, sa consolation dans le malheur ; il faut
+                    qu'elles se souviennent qu'au lit des malades, au chevet du pauvre, au berceau
+                    de l'orphelin, elles remplacent la Providence ; qu'il n'y a que leurs mains qui
+                    savent fermer de certaines plaies..... et qu'enfin la décadence des femmes fait
+                    baisser le niveau de la valeur humaine.</p>
+                <p>C'est sur cela surtout qu'il faut appeler leur attention. Eh bien, danns le
+                    travail seul est l'indépendance ; hors le travail, point de salut... ce ne sont
+                    point les bras qui manquent à l'ouvrage, c'est l'ouvrage qui manque aux bras
+                    féminins ; c'est là qu'est- la plaie ; ce sont les larmes de la misère condamnée
+                    à l'oisiveté qui formet les sources de la dépravation ; eh bien, il faut assurer
+                    à toutes les mains actives l'indépendance par le travail, ce sera la possibilité
+                    de la vertu.</p>
+                <p>Déjà les écoles professionnelles ont donné l'élan, il n'y a plus qu'à suivre ; à
+                    l'oeuvre donc, Mesdames, la tâche est belle, elle a de quoi satisfaire à la fois
+                    votre coeur et votre orgueil ; vous tenez dans vos mains les destinées du monde
+                    !</p>
+                <p>Appuyées sur la religion et sur la vérité d'un côté, sur l'Etat et sur la famille
+                    de l'autre, nous donnant toutes la main, nous marcherons d'un pas ferme dans la
+                    voie ou nous engagent l'année qui vient de s'écouler et les promesses de
+                    réussite qu'elle renferme.</p>
+                <p>Si nous échouons dans notre louable entreprise, nous aurons du moins la
+                    satisfaction intime d'avoir tout fait pour une oeuvre qui a obtenu l'approbation
+                    universelle, dont la tentative seule aura donné le sallut à quelques-unes, du
+                    bonheur à toutes... et aura fait plaisir à Dieu.</p>
+            </div>
+            <div xml:id="oiseauxvoyageurs-1" type="roman">
+                <head>Les oiseaux voyageurs</head>
+                <div n="1">
+                    <head>Entrée en matière</head>
+                    <p>Le temps où nous vivons est, à ce que prétendent les moralistes avariés, une
+                        époque de transition ; nous enfantons pour l'avenir des prospérités infinies
+                        et nous souffrons de cet enfantement dont nous ne devons pas recueillir les
+                        fruits. Par cette raison là ou par une autre, il ne me convient pas de
+                        l'éxaminer ici, ce bienheureux temps ne me semble pas le meilleur. C'est
+                        déjà trop d'y être, il me semble ; c'est déjà trop d'assister forcément aux
+                        tragicomédies qui se jouent autour de nous, sans les retracer encore dans
+                        les ouvrages d'imagination, sans les retrouver au théâtre. Sous prétexte
+                        d'être <hi rend="italics">vrai</hi> et de corriger nos moeurs, on nous
+                        montre les bas-fonds d'une société qui s'écroule ; cela peut inspirer un
+                        dégoût profond, mais je ne crois pas que cela guérisse personne.</p>
+                    <p>Si vous le permettez, mes chers lecteurs, nous allons donc retourner vers un
+                        siècle dont on a beaucoup médit et qui avait du bon pourtant. Il était au
+                        moins plus gai, plus amusant, moins hypocrite que le nôtre. En admettant
+                        qu'il eût les mêmes défauts, ses vices sentaient l'ambre et non pas le
+                        ciagre. Ses écarts étaient de bonne compagnie ; il avait encore des
+                        croyances et des dévouements que vous chercheriez en vain autour de vous. On
+                        ne valait pas mieux sans doute, mais on était mieux élevé, la forme voilait
+                        le fond ; il était possible de s'illusionner, et si l'on avouait franchement
+                        ses oublis de la morale, au moins n'avait-on pas la prétention de prêcher
+                        les autres en les brusquant. Vous savez donc que maintenant nous sommes en
+                        l'an de grâce 1760, sous le règne de Louis XV, j'allais ajouter en celui de
+                        Mme de Pompadour, à la porte d'unne belle abbaye des femmes, située au bord
+                        de la Loire, non loin de Saumur, c'est-à-dire dans un des plus splendides
+                        paysages de cette belle contrée qu'on a surnommée le jardin de la
+                        France.</p>
+                    <p>Il est presque nuit, et deux enfants, un garçon et une fille, sont assis sous
+                        l'un des derniers arbres de l'avenue ; ils mangent de bon appétit un morceau
+                        de pain noir et un débris de viande, dont la forte odeur d'ail révèle
+                        l'origine. de temps en temps leurs regards inquiets se lèvent sur le portail
+                        de l'abbaye, hermétiquement fermée comme de droit ; il y a dans les regards
+                        du désir et de la crainte.</p>
+                    <q>- Mon frère, dit la petite fille, il faudra pourtant nous décider ; on va
+                        sonner l'<hi rend="italics">angelus</hi>, et quand la tourière aura mis la
+                        chaîne, si nou ne sommes pas entrés et reçus, nous passerons la nuit à la
+                        belle étoile.</q>
+                    <q>- Oui, ma soeur ; mais si on nous chasse, nous la passerons tout de même et
+                        nous aurons reçu un affront.</q>
+                    <q>- Et pourquoi nous chasserait-on, je te prie ? interrompit la petite fille en
+                        se levant d'u air offensé.</q>
+                    <q>- Parce que... parce que... parce que des bateleurs, des danseurs des rues,
+                        sont singulièrement placés dans une maison comme celle-ci.</q>
+                    <q>- Ne sommes-nous pas d'honnêtes créatures ?</q>
+                    <q>- Certes, mais qu'importe ? Tu danses le fandago et moi je fais sauter des
+                        boules en équilibre, le tout avec des gestes et des façons fort peu
+                        canoniques ; et quand il n'y aurait que notre costume...</q>
+                    <q>- Notre costume est caché sous nos manteaux et nous ne le montrerons qu'à bon
+                        escient.</q>
+                    <q>- Marcelline, tu es trop confiante.</q>
+                    <q>- Noël, tu es trop défiant.</q>
+                    <q>- Tu recevras ta leçon.</q>
+                    <q>- Et ce papier, cette lettre ! Tu m'impatientes à la fin. N'obéissonsn-nous
+                        pas à feu notre mère ?</q>
+                    <q>- Je le sais bien, mais...</q>
+                    <q>- Mais, mais, Madame l'abbesse en décidera. Ta poltronnerie me donne du
+                        courage ; me voilà décidée et je vais agiter le marteau. Il vaut mieux
+                        savoir notre sort que de l'attendre. Si je me trompe, eh bien ! mes
+                        castagnettes et ton tambour de basque ne sont pas perdus.</q>
+                    <p>Après ces mots, elle marcha résolument vers l'abbaye, en frappa un coup
+                        retentissant ; presque aussitôt une soeur, vêtue de blanc, avec un voile
+                        noir et un long scapulaire bleu, ouvrit la grille du guichet.</p>
+                    <q>- Qui est là ? dit-elle, que demandez-vous ? On n'admet pas les vagabonds à
+                        pareille heure.</q>
+                    <q>- Nous ne sommes pas des vagabonds, ma soeur, nous avons une lettre à
+                        présenter à Madame l'abbesse, et nous avons l'espoir d'être reçus dans la
+                        maison de Guillaume Lerat, le jardinier.</q>
+                    <q>- Faites alors le tour de la muraille, à droite, et frappez à l'huis du
+                        potager. Guillaume vous introduira s'il le juge à propos.</q>
+                    <p>La grille se referma. Noël secoua la tête.</p>
+                    <q>- Heu ! mauvais début, ces nonnes ne sont pas avenantes.</q>
+                    <q>- Bah ! celle-ci est vieille et laide, les jeunes ne seront pas si sévères.
+                        Allons chez Guillaume.</q>
+                    <p>Noël suivit sa soeur sans lui répondre ; des deux elle était la plus
+                        énergique et la plus résolue ainsi que cela arrive presque toujours en
+                        pareil cas. Elle trouva sans peine la porte désignée et n'eut pas besoin d'y
+                        heurter ; elle était ouverte, un homme conduisant une brouette était prêt à
+                        sortir. A l'aspect des nouveaux arrivés il s'arrêta, dressé comme un point
+                        d'interrogation. Marcelline le comprit.</p>
+                    <q>- Etes-vous Guillaume Lerat ? demanda-t-elle.</q>
+                    <p>L'homme fit une moue méprisante.</p>
+                    <q>- Je suis Guillaume pour Mme l'abbesse et pour les dames de choeur, je suis
+                        Lerat pour les novices et les postulantes, pour des espèces comme vous et
+                        pour les converses, je suis M. Guillaume Lerat, s'il vous plaît ; apprenez à
+                        parler. A présent, que me voulez-vous ?</q>
+                    <q>- M. Guillaume Lerat, vous avez eu une soeur ?</q>
+                    <q>- Ma foi ! il y a si longtemps que je ne m'en souviens plus.</q>
+                    <q>- Elle s'en est souvenue, elle, et nous venons de sa part.</q>
+                    <q>- Ah ! fit le jardinie, dont le visage changea.</q>
+                    <q>- Oui, M. Guillaume Lerat, continua Marcelline (c'était toujours elle qui
+                        parlait) ; oui, elle nous a envoyés vers vous ; elle a cru que vous l'aimiez
+                        comme elle vous aimait, elle a eu confiance en cette amitié, et elle nous a
+                        donné ordre de nous rendre ici.</q>
+                    <q>- Et q'y venez-vous faire ici, petits mendiants ?</q>
+                    <q>- Nous sommes ses enfants, mon oncle, répliqua la petite fille avec une
+                        nuance de crainte qu'elle ne put dominer.</q>
+                    <q>- Est-il Dieu possible ! s'écria Guillaume en lâchant la brouette qu'il avait
+                        toujours tenue jusque là.</q>
+                    <p>Noël eût voulu être bien loin ; il trouvait dans cette exclamation une
+                        surprise si contristée, qu'il se voyait déjà mis à la porte. La hysionomie
+                        de Lerat exprimait plusieurs sentiments divers ; il était difficile de
+                        prévoir lequel l'emporterait. C'était une de ces figures réjouies, assez
+                        ouvertes, assez bienveillantes, où la finesse se cachait sous la simplicité
+                        ; une magnifique trogne et un embonpoint de chanoine révelaient l'attraction
+                        de Guillaume pour la bonne chère et pour le cabaret. Il avait quelque peine
+                        à devenir sérieux. Cependant un autre penchant, très-dominant aussi chez
+                        lui, le poussait à la dureté et à la dénégation. Sa soeur et ses neveux
+                        avaient sans doute besoin de ses secours, et Guillaume était encore plus
+                        avare qu'il n'était joyeux et ivrogne. </p>
+                    <p>Il examinait donc d'un air prévenu et inquiet la famille improvisée que lui
+                        envoyait le hasard.</p>
+                    <p>Ni le charmant visage de Noël, ni la grâce et la séduction de sa soeur ne lui
+                        inspirèrent de sympathie ; il ne vit que leurs vêtements plus que simples et
+                        leur apparence modeste ; ils étaient pauvres évidemment. Il se gratta
+                        l'oreille et chercha une manière d'éluder la question.</p>
+                    <q>- Et qui me prouve que vous êtes les enfants de ma soeur ? poursuivit-il.</q>
+                    <q>- Ceci, répliqua la jeune fille.</q>
+                    <p>Elle lui tendit une lettre ouverte et une autre fermée, il les prit et les
+                        retourna dans ses doigts d'un air embarrassé.</p>
+                    <q>- Je ne sais pas lire, dit-il enfin.</q>
+                    <q>- Je vous la lirai, mon oncle, c'est-à-dire je vous lirai celle qui est pour
+                        vous ; l'autre est pour Mme l'abbesse et...</q>
+                    <q>- Pour Mme l'abbesse ! pour Mme la princesse de Charly ! ma soeur a
+                        osé...</q>
+                    <q>- Voici ce qui vous concerne, mon oncle.</q>
+                    <q><q>- Je ne vous reverrai plus, mes enfants, je sens que la mort m'a frappée,
+                            et le seul regret que j'éprouve en quittant la vie, c'est de ne pas vous
+                            embrasser une dernière fois. Il me faut accepter cette cruelle punition
+                            de mes fautes. Je dois vous révéler aujourd'hui ce que je vous ai
+                            soigneusement caché jusqu'à présent ; c'est peut-être votre seule chance
+                            d'avenir. J'ai un frère, jardinier à l'abbaye de Sainte-Césaire, auprès
+                            de Saumur ; il n'a pas d'enfants, et s'il veut vous recevoir, vous
+                            pourrez trouver en lui un père. La lettre que je joins à celle-ci vous
+                            aidera peut-être à trouver un bon accueil. Mme l'abbesse a eu bien des
+                            bontés pour moi autrefois. Que mon frère me pardonne et ne fasse pas
+                            retomber sur vous la juste rancune qu'il m'a gardée. vous êtes
+                            innocents, vous êtes orphelins. Je sais qu'il est dur, mais au fond il
+                            était bon dans notre jeunesse. Qu'il n'oublie pas combien je l'aimais,
+                            et qu'il vous le rendre ; je le bénirai dans le ciel, où Dieu me dera
+                            peut-être la grâce de m'admettre !</q>
+                        <q>- Soyez toujours honnêtes et saves, rappelez-vous que je vous ai confiés
+                            à la Providence, qu'elle ne vous a pas abandonnés, et que vous m'avez
+                            promis de reconnaître ses bienfaits par votre conduite. <hi rend="right"
+                                >Etiennette Lerat</hi></q></q>
+                    <p>Guillaumme écoutait attentivement en se grattant les oreilles et le nez, ce
+                        qui chez lui était un signe de préoccupation sérieuse. Ses yeux se portèrent
+                        sur Noël, debout et immobile en face de lui, et comme il éprouvait le besoin
+                        de s'en prendre à quelqu'un de l'embarras qu'il éprouvait :</p>
+                    <q>- Te voilà donc muet comme une carpe, toi ; est-ce que tu n'as pas de langue
+                        ?</q>
+                    <p>Le jeune garçon manquait d'initiative, c'est certain ; mais il ne manquait
+                        pas de résolution et même de hardiesse au besoin. Guillaume paraissait peu
+                        flatté de leur visite, et sa susceptibilité s'en arma.</p>
+                    <q>- Que puis-je dire à qui me fait un areil accueil ? à qui n'a pas même un
+                        regret pour ma mère ? Ma soeur semble prendre bien des soins inutiles ; je
+                        crois que nous ferions mieux de nous retirer.</q>
+                    <q>- Non, interrompit violemment Guillaume, mais... dame... c'est tout de même
+                        un peu lourd de se voit comme cela deux enfants sur les bras quand on ne s'y
+                        attendait point. Quant à votre mère... c'était ma soeur, c'est vrai, mais
+                        elle s'est mariée juste au moment où elle aurait pu me regagner tout
+                        l'argent que j'ai dépensé pour elle, et... enfin ! Que savez-vous faire
+                        ?</q>
+                    <q>- Danser, chanter.</q>
+                    <q>- Après ?</q>
+                    <q>- Moi, je suis fort en équilibres, ma soeur joue du luth.</q>
+                    <q>- Miséricorde du ciel ! des bateleurs ! que voulez-vous pratiquer dans cette
+                        sainte maison ! On vous en mettra dehors avec la croix et l'eau bénite.</q>
+                    <q>- Allons-nous-en, mon frère, dit tristement Marcelline, ma pauvre mère s'est
+                        trompée lorsqu'elle a cru nous préparer un asile. nous n'apporterons pas ici
+                        le trouble et la discorde ; partons.</q>
+                    <q>- Encore un instant, folle ; tu me parais vive comme un papillon, il faut
+                        s'entendre ; avez-vous faim ?</q>
+                    <q>- Nous avons soupé avant d'entrer ici.</q>
+                    <p>Guillaume fit un signe de satisfaction. Cette précaution le disposa en leur
+                        faveur.</p>
+                    <q>- Laissez-moi vider ma brouette, poursuivit-il, attendez-moi dans cette allée
+                        ; surtout, ne cueillez ni une fleur, ni un fruit, et ne foulez pas mes
+                        bordures. Je reviens tout de suite.</q>
+                    <p>Les orphelins obéirent et ils pénètrèrent dans le beau et le vaste jardin de
+                        l'abbaye ; il faisait honneur aux soins de Guillaume. il était difficile de
+                        voir un verger mieux garni et des plates-bandes plus parfumées. Après le
+                        potager, on apercevait le parterre, et au fond un quinconce de magnifiques
+                        tilleuls formant une immense salle de verdure, à très-peu de distance du
+                        royal bâtiment de l'abbatiale, construit sous François I<hi rend="sup"
+                            >er</hi>, en pleine renaissance, avec toute la splendeur de l'époque.
+                        Les fenêtres ouvraient d'un côté sur le jardin que je viens de décrire, et
+                        de l'autre sur la Loire, dont une terrasse le séparait seulement. C'était
+                        une situation rare, au milieu d'un paysage enchanteur. Le voisinage de la
+                        ville rendait les communications plus faciles et plus fréquentes.
+                        Sainte-Césaire était loin de ressembler à une thébaïde.</p>
+                    <q>- Il me semble que je vivrais bien ici, dit Marcelline.</q>
+                    <q>- En prison !</q>
+                    <q>- Non, pas en prison, libre, en travaillant, si l'on veut, au milieu de ces
+                        jolies fleurs et de ces beaux raisins.</q>
+                    <q>- Gourmande !</q>
+                    <p>Guillaume rentrait en ce moment ; il déposa sa brouette sous le hangar, et
+                        revint vers les enfants qui l'attendaient.</p>
+                    <q>- Eh bien ! dit-il, puisque vous avez soupé, restez-ici jusqu'à demain matin.
+                        Il y a de la bonne paille fraîche dans la vesserre, vous pouvez y dormir ;
+                        je ne mettrai pas les enfants de ma soeur sur le pavé, à pareille heure,
+                        toute coupable qu'elle soit. La nuit porte conseil, je réfléchirai, et nous
+                        verrons demain. donnez-moi votre lettre pour Madame, je la serrerai dans mon
+                        armoire ; ce sera plus sûr.</q>
+                    <q>- Nous avons l'habitude de garder nos affaires nous-mêmes, mon oncle,
+                        répondit Marcelline ; soyez tranquille, nous ne la perdrons pas.</q>
+                    <p>Guillaume marmota quelques paroles tout en les conduisant vers leur lit
+                        improvisé ; il était difficile de prévoir quelle serait sa décision, et plus
+                        difficile encore de deviner l'opinion qu'il avait conçue de personnes si
+                        prudentes et si disposées à se défier des armoires des autres.</p>
+                </div>
+
+                <docAuthor ref="nom.xml#comtessedash">Comtesse Dash</docAuthor>
+            </div>
+            <div xml:id="oiseauxvoyageurs-2" type="roman">
+                <head>Les oiseaux voyageurs</head>
+                <docAuthor ref="nom.xml#comtessedash">Comtesse Dash</docAuthor>
+                <div n="2">
+                    <head>Nouvelles connaissances</head>
+                    <p>Le lendemain, l'alouette chantait à peine que déjà les deux enfants étaient
+                        debout, gais et dispos ; il faisait un temps magnifique, le soleil riait
+                        dans l'azur, et toute la nature reaissait sous un ciel sans nuages. Noël et
+                        Marcelline couraient par les allées avec l'impatience de leur âge.
+                        Guillaume, éveillé avant eux, n'était pas encore sorti de la chambre : il
+                        les regardait par une fente de son rideau, il les trouvait jolis et
+                        réjouissants, mais la dépense qu'il faudrait faire pour eux l'effrayait.</p>
+                    <q>- Après cela, se dit-il, si madame les accepte, en criant bien fort, elle
+                        m'aidera. Et qui sait ?</q>
+                    <p>Cette réflexion redoubla l'intérêt qui s'élevait dans son coeur pour les
+                        orphelins. Leurs vêtements bizarres l'offusquaient encore ; néanmoins,
+                        comment présenter à la princesse un neveu et une nièce déguisés en
+                        saltimbanques ?</p>
+                    <p>Marcelline avait une cotte rouge très courte, laissant voir une jambe fine et
+                        un bas vert à coins blancs, très propre et très bien tiré. Un soulier à
+                        boucles de clinquant aussi frais que le permettait une longue route à pied.
+                        Sur la cotte rouge une jupe brodée de toutes les couleurs, très ample, à
+                        plis nombreux, tournoyait au moindre mouvement. un corset de velours noir, à
+                        basques découpées, bordées d'un ruban rouge, une chemise à larges manches,
+                        encadrant son cou d'une légère dentelle, complétaient son costume <hi
+                            rend="italics">de théâtre</hi>.</p>
+                    <p>Ses longs cheveux, blonds comme les blés, tombaient en nattes sur ses épaules
+                        ; il étaient ornés de rubans de toutes les couleurs et de verroteries, de
+                        grosses boules de faux or formaient comme une couronne autour de sa tête ;
+                        elle avait des colliers, de longues boucles d'oreilles, et plusieurs
+                        chapelets pendaient à sa ceinture, le tout en cristal et en perles imitées.
+                        Toutes ces nuances éclatantes, ces faux joyaux n'étaient pas d'un goût bien
+                        épuré ; mais l'ensemble châtoyait aux regards, et tout cela seyait
+                        admirablement à la taille svelte et cambrée de la jeune fille, à sa peau de
+                        satin, à ses yeux noirs et brillants. Elle était plus charmante peut-être
+                        que belle ; mais elle avait treize ans à peine, et il était facile de
+                        prévoir que vers sa seizième année, ce serait une grande voleuse de
+                        coeurs.</p>
+                    <p>Noël, plus âgé de deux ans, était grand, bien découplé, brun et fort ; ses
+                        traits, d'une pureté de dessin parfaite, étaient déjà formés, et
+                        présentaient une rare distinction ; il avait l'air d'un homme et d'un homme
+                        résolu. Un léger duvet encadrait sa lèvre supérieure, ses dents de nacre,
+                        comme celles de sa soeur, donnaient à son sourire une séduction
+                        inexprimable.</p>
+                    <p>Il était vêtu de drap amaranthe et de velours vert. Ses hauts de chausse
+                        étaient blancs brodés en or, ils lui venaient d'un page du roi d'Espagne ;
+                        son habit était un pourpoint à l'ancienne mode, orné de rubans jusqu'à la
+                        profusion, malheureusement les rubans étaient un peu fanés, mais on n'y
+                        regarde pas de si près pour courir les grandes routes.</p>
+                    <p>Une écharpe bariolée serrait sa taille, et sur sa tête une toque à plumes
+                        posée sur l'oreille à la manière des juges du moyen-âge, lui donnait un air
+                        tout à fait conquérant.</p>
+                    <p>Ils avançaient dans l'allée droite, sans oser sortir de cette partie du
+                        jardin, séparée des parterres par un petit mur à hauteur d'appui et une
+                        grille. Les pauvres petits éprouvaient cependant une grand curiosité de voir
+                        l'abbye, de jeter un coup d'oeil furtif sur cette partie des bâtiments
+                        interdits aux profanes et que leur mère avait habitée si longtemps.</p>
+                    <p>Pendant qu'ils essayaient de se donner mutuellement du courage, il leur
+                        sembla apercevoir, à travers les charmilles, des robes blanches qui
+                        s'avançaient de leur côté. Ils se rapprochèrent l'un de l'autre
+                        involontairement.</p>
+                    <q>- Marcelle, ce sont les nonnes, elles vont nous chassser.</q>
+                    <q>- Eh bien ! Noël, nous nous expliquerons auparavant, et, si l'ont nous
+                        chasse, nous nous en irons à Saumur, nous sommes sûrs d'y faire une bonne
+                        journée. </q>
+                    <q>- C'est si humiliant d'être chassé !</q>
+                    <q>- D'une abbaye ! pas du tout. Ce n'est pas nous qu'on chasserait, c'est notre
+                        profession. Mais voici les dames, c'est le moment de nous préparer. Non, ce
+                        sont des enfants, des pensionnaires.</q>
+                    <p>En effet, c'étaient deux jeunes filles à peu près de l'âge de Marcelle. Elles
+                        portaient de longues robes de laine blanche à peine serrées à la taille par
+                        une cordelière bleue, comme celles des novices chez les moinces. Leurs
+                        cheveux étaient sans poudre, coupés très courts en boucles. Elles étaient
+                        assez jolies, leurs physionomies exprimaient la bonne humeur et la
+                        franchise. A l'aspect de ces étrangers, elles s'arrêtèrent.</p>
+                    <q>- Qu'est-ce que cela ? demanda la plus grande à la plus petite.</q>
+                    <q>- Un garçon, ma reine, un garçon chez Guillaume ! Qu'y fait-il ? c'est un
+                        masque ou bien un heiluque, peut-être, vous savez ? ces nouveaux laquais
+                        dont les étrangers ont donné la mode. Il faut le savoir. Guillaume !
+                        Guillaume !</q>
+                    <q>- Viens, Guillaume Lerat !</q>
+                    <p>Guillaume s'empressa de quitter son observatoire et de courir au devant des
+                        jeunes personnes.</p>
+                    <q>- Voilà votre serviteur, mesdemoiselles ; que voulez-vous ? du fruit ou des
+                        fleurs, commandez ; mais, pour l'amour de la sainte Vierge, ne cueillez rien
+                        vous-même, vous me saccageriez mes plantes et mes espaliers.</q>
+                    <q>- Nous verrons cela tout à l'heure ; d'abord, dis-nous qu'est-ce que cela
+                        ?</q>
+                    <p>Guillaume se gratta l'oreille ; la question était directe et embarrassante.
+                        Fallait-il avouer les enfants de sa soeur avant de savoir comment ils
+                        seraient reçus ? Fallait-il attendre l'évènement et tâter la forture ? La
+                        façon de les désigner, <hi rend="italics">cela</hi>, indiquait peu d'estime.
+                        La question fut plutôt tranchée qu'il le supposait.</p>
+                    <p>Pendant qu'il réfléchissait, Marcelle, dont l'esprit prompt et résolu avait
+                        bien vite jugé la situation, s'approcha d'un rosier en fleurs, en coupa avec
+                        son petit poignard la plus belle branche, et, s'avançant vers les
+                        pensionnaires, elle leur dit la plus gracieuse révérence en la leur
+                        présentant : </p>
+                    <q>- <hi rend="italics">Cela</hi>, mesdemoiselles, dit-elle, ce sont les enfants
+                        d'Etiennette Lerat, soeur de Guillaume, chargés par leur mère de remettre
+                        une lettre à Mme la princesse de Charly, abbesse de cette illustrissime
+                        maison.</q>
+                    <q>- Oh ! ma tante ! s'écrièrent-elles toutes les deux en même temps.</q>
+                    <q>- Si j'ai le bonheur de parler à mesdemoiselles ses nièces, j'oserai implorer
+                        leur protection pour deux pauvres orphelins.</q>
+                    <q>- Certainement ; mais pourquoi êtes-vous habillés comme des carême-prenants
+                        ?</q>
+                    <q>- Parce que c'est notre profession, mademoiselle ; parce que nous gagnons
+                        honnêtement notre vie en dansant et en faisant des tours par les rues des
+                        grandes villes.</q>
+                    <p>Marcelle baissa ses longues paupières en prononçant ses mots et se recula un
+                        peu. Noël ne revenait pas de sa hardiesse. Quant à Guillaume, il restait
+                        confondu.</p>
+                    <q>- Quel bonheur ! quel bonheur ! nous allons bien nous amuser ! vous danserez
+                        pour nous, vous nous montrerez à danser aussi. Ah ! ma tante vous recevra
+                        bien ; elle est si bonne, ma tante !</q>
+                    <q>- Oui, mais c'est une si grande dame !</q>
+                    <q>- Elle n'est pas fière, je vous en réponds. Cela tombe à merveilleu ,c'est
+                        aujourd'hui sa fête, nous voulions lui faire une surprise ; nous venions
+                        chercher des bouquets à cette heure, afin qu'elle ne s'en aperçut pas ; vous
+                        en serez tous les deux. Comment vous appelez-vous ?</q>
+                    <q>- Marcelle et mon frère Noël.</q>
+                    <q>- Moi, je suis Mlle de Charly, la fille du frère de Madame, et ma cousine est
+                        Mle de Villovielle, la fille de sa soeur.</q>
+                    <p>La connaissance fut ainsi faite, Noël reprit un peu de courage, et tous les
+                        quatre se mirent à babiller. Le programme de la journée fut décidé entre ces
+                        fortes têtes. Marcelle en eut bien vite pris la direction ; elle courut à la
+                        grange, en rapporta sa guitare et ses castagnettes, ainsi qu'un petit
+                        tambourin, et demanda aux jeunes filles quel instrument elles
+                        choisissaient.</p>
+                    <q>- Tous. D'abord, il nous faut les entendre ; jouez- s'il vous plaît.</q>
+                    <p>L'enfant ne se le fit pas répéter deux fois ; elle accorda sa guitare et
+                        chanta d'une voix grêle, mais charmante, deux ou trois refrains, ce qui
+                        enthousiasma les auditeurs.</p>
+                    <q>- Et des cantiqus ? Savez-vous des cantiques ?</q>
+                    <q>- Nous en savons un bien beau : je crois qu'il vient de ctete abbaye ; du
+                        moins notre mère nous l'a dit.</q>
+                    <q>- Chantez-le tout de suite.</q>
+                    <p>Jamais une transformation si prompte ne s'opéra sur un visage humain que sur
+                        celui de ces deux enfnants. Ils songèrent un instant, puis ils
+                        s'agenouillèrent à côté l'un de l'autre, joignirent leurs mains, levèrent
+                        les yeux au ciel et commencèrent une hymne admirable de quelque vieux maître
+                        perdu, ou eut-être était-ce une inspiration de quelque sainte récluse dans
+                        un moment d'extase. Quoi qu'il en fût, c'était une musique digne des
+                        séraphins.</p>
+                    <p>Les jeunes filles en furent tellement frappées que leurs genoux se ployèrent
+                        doucement, que leurs yeux se mouillèrent de larmes,e t qu'elles écoutaient
+                        encore avec délices alors que les artistes ne chantaient plus. Guillaume
+                        lui-même était ému ; il marmotait entre ses dents :</p>
+                    <q>- Ils sont sorciers, comme leur mère, ils ont sa voix ; il me semble que je
+                        l'entends.</q>
+                    <q>- Oh ! mon Dieu ! c'est un chant digne des anges, dit Mlle de Charly. Vous
+                        chanterez cela aujourd'hui même à l'église, nous allons en prévenir la mère
+                        Augustine ; ce sera une délicieuse surprise pour ma tante ; ensuite vous
+                        paraîtrez à la fête. Nous allons bien nous amuser !</q>
+                    <q>- Mais... mais... mamzelle ! mon neveu !... il ne peut pas entrer dans
+                        l'abbaye apparemment, si ce n'est au parloir ; vous n'y pensez pas.</q>
+                    <q>- Tiens ! c'est vrai... Il peut entrer à la chapelle, Guillaume, il peut
+                        entrer à l'abbatiale, et la fête aura lieu à la chapelle et à
+                        l'abbatiale.</q>
+                    <q>- Oui, mamzelle, mais cela n'est pas canonique ; les dames de choeur se
+                        fâcheront, la mère Ursule... songez à la mère Ursule !</q>
+                    <q>- Je le crois bien, interrompit Mlle de Villevieille, elle qui ne veut pas un
+                        moineau mâle dans la cage de mes oiseaux... Il y a un moyen.</q>
+                    <q>- Lequel ?</q>
+                    <q>- Quel Noël prenne un habit à sa soeur.</q>
+                    <q>- Oh ! mademoiselle ! s'écria M. Lerat en se voilant le visage.</q>
+                    <q>- Quel mal y a-t-il à cela ?</q>
+                    <p>Un plus habile aurait dit :</p>
+                    <q>- Sainte innocence !</q>
+                    <p>M. Lerat se contenta de prendre un air de pudeur effarouchée et de réserve
+                        mystique.</p>
+                    <q>- Si on lui mettait une de nos grandes robes blanches, il aurait l'air d'un
+                        enfant de choeur.</q>
+                    <q>- Oh ! oui, une de nos robes blanches et à Marcellel aussi ; de cette façon,
+                        il n'y aura pas le plus petit mort à dire.</q>
+                    <q>- Alors ils ne danseront pas ?</q>
+                    <q>- Ah ! c'est vrai... que c'est contrariant! ...Ce sera pour un autre jour, on
+                        ne peut pas tout faire en même temps. Il faut d'abord accoutumer ces dames à
+                        le voir, le cantique les charmera ; laissez-moi faire, je les prends sous ma
+                        protection et j'en viendrai à bout.</q>
+                    <q>- Miséricorde du ciel ! s'écria Guillaume, nous sommes perdus : la mère
+                        Usule, la mère Perpétue, la mère Gillonne !</q>
+                    <q>- Les trois Parques ! reprit Mlle de Charly. Garde à vous !
+                            <unclear>Noïs</unclear>, cachez-vous derrière les noisetiers, elles ont
+                        la vue trouble, et peut-être leur échapperez-vous.</q>
+                    <p>Les vénérables soeurs s'avançaient vers les jeunes filles, dans cette allée
+                        droite, ombragée à peine ; il n'y avait guêre d'espérance qu'elles n'eussent
+                        pas distingué le jeune homme, les couleurs voyantes de son habit rendaient
+                        la chose plus difficile encore.</p>
+                    <q>- Eh bien, dit mère Usule, que faites-vous là, mesdemoiselles, qu'est-ce que
+                        cette étrangère ? comment ose-t-elle s'approcher de cette sainte maison avec
+                        la jupe qu'elle porte là ?</q>
+                    <p>Les yeux de la révérende <unclear>profès</unclear> auraient rallongé ce
+                        pauvre cotillon rouge, s'ils en avaient eu la puissance. La danseuse se
+                        baissait et se faisait petite ; elle commençait à avoir peur ; heureusement
+                        Mlle de Charly, revenue de la première surprise, ne se laissait pas
+                        intimider si facilement.</p>
+                    <q>- Cette jeune fille a été appelée par moi, ainsi que sa soeur, pour la fête
+                        d'aujourd'hui, ma mère, je veux faire une surprise à ma tante, et j'étais en
+                        train de la régler avec elle quand vous nous avez dérangées ; soyez
+                        tranquille, cette robe s'allongera.</q>
+                    <p>Charly prenait des airs d'enfant gâtée ou de favorite auxquels il fallait
+                        bien se soumettre, en apparence du moins. Dans ces petites cours
+                        embéguinées, la résistance n'était jamais flagrante, elle était dissimulée
+                        et voilée par la soumission, ce qui la rendant plus dangereuse.</p>
+                    <q>- C'est différent, c'est différent, mademoiselle, nous vous <hi
+                            rend="italics">dérangeons</hi>, j'en suis désolée, mais nous venions
+                        nous entendre avec Guillaume pour les guirlandes du noviciat. Permettez-vous
+                        qu'il nous réponde ?</q>
+                    <p>La mère Ursule n'avait qu'une dent, un vrai cheval de frise, planté au milieu
+                        de sa mâchoire, et lorsqu'elle souriait, cet ouvrage avancé se montrait
+                        d'une manière formidable. elle crut devoir l'exhiber comme l'appoint de son
+                        ironie. Marcelle, qui n'y était pas accoutumée, en resta stupéfaite.</p>
+                    <p>Les deux étourdies s'en tirèrent par une révérence respectueuse et se
+                        rangèrent pour laisser passer les vénérables mères. Il s'en suivit un long
+                        colloque avec M. Lerat, qui les promena dans les plates-bandes, le bonnet à
+                        la main, et reçut leurs ordres entremêlés d'épigrammes et de questions sur
+                        cette coureuse qu'on allait introduire dans la maison du Seigneur.</p>
+                    <q>- Madame a pour les mères une indulgence aveugle, ajouta la mère Gillonne ;
+                        elle verra où tout ceci pourra la conduire, ce qui en résultera de bon pour
+                        l'abbaye et pour elle. Rien de dangereux comme les favorites, et de tous les
+                        étages ; rappelez-vous, mesdames, cette Etiennette, dont la princesse
+                        s'était si engouée dans sa jeunesse, vous savez comment elle a fini.</q>
+                    <q>- Vous oubliez, ma soeur, que cette fille était la soeur de Guillaume,
+                        interrompit la mère Perpétue.</q>
+                    <q>- Je ne l'oublie point ; Guillaume a assez souffert de ce scandale, le
+                        malheureux ! Et son plus beau titre de gloire est d'être demeuré à sa place
+                        après un pariel évènement. Il doit en être fier, son mérite a triomphé de
+                        l'indignité d'une...</q>
+                    <p>La langue du couvent ne fournissant pas de mot convenable pour rendre sa
+                        pensée, la mère Gillonne n'alla pas plus loin.</p>
+                    <p>Elles rentraient alors dans les parterres, où Guillaume, ayant exécuté et
+                        compris leurs commandements, les abandonna.</p>
+                    <p>Il connaissait assez les moeurs de la communauté pour être très sûr que sa
+                        nièce avait déjà, dans la mère Ursule, une ennemie implacable. Les
+                        réflexions de la mère Gillonne prouvaient que la <hi rend="italics">vieille
+                            cour</hi> n'avait rien oublié. L'horizon était donc gros de tempêtes, et
+                        M. Lerat se promit de manoeuvrer de façon à retirer toujours son épingle du
+                        jeu, en tout état de cause.</p>
+                    <p>Aussi se tint-il fort à l'écart de tous les projets vis-à-vis des nièces de
+                        Madame, se renfermant dans les obligations strictes de sa place, tout en
+                        assurant ces demoiselles de son dévouement respectueux et de son obéissance
+                        la plus humble.</p>
+                    <p>Elles lui rirent au nez de tout leur coeur</p>
+                    <closer>(La suite au prochain numéro.)</closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
