@@ -1,7 +1,7 @@
 # background
 I did that tokenizer while working around [coreBuilder](https://github.com/dylan275/coreBuilder). We needed a xslt1.0 tokenizer for our tests and vizualisations.
 
-# functions used
+# things I used
 I used [exslt functions](http://exslt.org/func/) to replace the `xsl:document` function and to tokenize with the `tokenize` function.
 
 # processors and versioning
