@@ -3,7 +3,7 @@ I had to convert TEI metadata to ead metadata.
 
 # things I used
 ## ead 2002
-EAD or Encoded Archival Description is a standard use to describe archival documents. For example, it's used by the National Library of France (BnF). You can have a look on the [EAD site](https://www.loc.gov/ead/) for more informations.
+EAD is a standard used to describe archival documents. For example, it's used by the National Library of France (BnF). You can have a look on the [EAD site](https://www.loc.gov/ead/) for more informations.
 <br/>The examples I used to create this were based on EAD 2002 so am I.
 ## xml file
 I encoded the xml file and it may not be perfect, but feel free to reuse it for your experiments.
