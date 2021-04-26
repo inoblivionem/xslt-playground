@@ -15,10 +15,10 @@
                     <xsl:value-of select="@xml:id"/>
                 </dc:identifier>
 
-                <dc:contibuter>
+                <dc:contributer>
                     <xsl:apply-templates
                         select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:author"/>
-                </dc:contibuter>
+                </dc:contributer>
 
                 <dc:date>
                     <xsl:value-of
