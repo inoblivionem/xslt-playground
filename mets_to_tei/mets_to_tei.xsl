@@ -47,9 +47,10 @@
                                         <xsl:attribute name="xml:id">
                                             <xsl:value-of select="@id"/>
                                         </xsl:attribute>
-                                        <xsl:attribute name="points">
-                                            <xsl:value-of select="pc:Coords/@points"/>
-                                        </xsl:attribute>
+                                        <xsl:if test="pc:Coords/@points">
+                                            <xsl:attribute name="points">
+                                                <xsl:value-of select="pc:Coords/@points"/>
+                                            </xsl:attribute></xsl:if> 
                                         <xsl:for-each select="pc:TextLine">
                                             <xsl:element name="zone">
                                                 <xsl:attribute name="xml:id">
