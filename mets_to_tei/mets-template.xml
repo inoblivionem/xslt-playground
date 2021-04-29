@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets xmlns="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mods="http://www.loc.gov/mods/v3"
+>
+    <metsHdr CREATEDATE="2021-04-27T17:47:27" RECORDSTATUS="Complete"> <!-- date de création du document et statut : complete indique qu'il est terminé  -->
+        <agent ROLE="CREATER" TYPE="ORGANIZATION">
+            <name>eSriptorium</name>
+            <note></note>
+        </agent>        
+    </metsHdr>
+    <dmdSec ID="dmd_01">
+        <mdWrap MDTYPE="MODS" LABEL="Bibliographic metadata">
+            <xmlData>
+                <mods:mods version="3.6">
+                    <mods:titleInfo>
+                        <mods:title>Lettres de commission de capitaine des galères pour le voyage d'ALEXANDRIE, octroyées à Jacopo CELSI par le doge Francesco DONATO. (31 juillet 1550.)</mods:title>
+                        <mods:subTitle></mods:subTitle>
+                    </mods:titleInfo>
+                    
+                    <mods:name type="personal">
+                        <mods:namePart>CELSI, JACOPO</mods:namePart>
+                        <mods:namePart type="date"></mods:namePart>
+                    </mods:name>
+                    <mods:typeOfResource>texte</mods:typeOfResource>
+                    <mods:originInfo>
+                        <mods:place>
+                            <mods:placeTerm type="text">Venise</mods:placeTerm>
+                        </mods:place>
+                        <mods:publisher>Nom de l'éditeur</mods:publisher>
+                        <mods:dateIssued>Date de l'édition</mods:dateIssued>
+                        <mods:issuance>Manuscrit</mods:issuance>
+                    </mods:originInfo>
+                    <mods:language>
+                        <mods:languageTerm authority="iso639-2b" type="code">fre</mods:languageTerm>
+                    </mods:language>
+                    <mods:physicalDescription>
+                        <mods:form authority="marcform">print</mods:form>
+                        <mods:extent>Parchemin. - 61 feuillets. - Peinture représentant l'embarquement de Celso sur sa galère, au fol. 2 ; en bas, à gauche, armes des Celsi. Tranches dorées. - In-4°</mods:extent>
+                    </mods:physicalDescription>
+                    <mods:note>...</mods:note>                   
+                    <mods:recordInfo>
+                        <mods:descriptionStandard>aacr</mods:descriptionStandard>
+                        <mods:descriptionStandard>dcrb</mods:descriptionStandard>
+                        <mods:recordContentSource authority="marcorg">Fr-Pa-eS</mods:recordContentSource>
+                        <mods:recordCreationDate encoding="marc">Avril 27, 2021</mods:recordCreationDate>
+                        <mods:recordIdentifier>n°identification</mods:recordIdentifier>
+                        <mods:recordOrigin>machine generated</mods:recordOrigin>
+                    </mods:recordInfo>
+                </mods:mods>
+            </xmlData>
+        </mdWrap>
+    </dmdSec>
+    <dmdSec ID="dmd_02">
+        <mdWrap MDTYPE="MODS" LABEL="Digital collection provenance">
+            <xmlData>
+                <mods:mods version="3.6">
+                    <mods:note>Transcripts were generated from optical character recognition (OCR) performed by eScriptorium.</mods:note>
+                </mods:mods>
+            </xmlData>
+        </mdWrap>
+    </dmdSec>
+    <amdSec>
+        <techMD ID="format du fichier numérique">
+            <mdWrap MDTYPE="MODS">
+                <mods:titleInfo>
+                    <mods:title>Nom du projet</mods:title>
+                </mods:titleInfo>
+                <mods:name>
+                    <mods:namePart>Nom du créateur du projet</mods:namePart>
+                </mods:name>
+            </mdWrap>
+        </techMD>            
+    </amdSec>
+
+    <fileSec>
+        <fileGrp ID="VERS1"> 
+            
+        </fileGrp>
+        <fileGrp ID="VERS2">
+            <file ID="file_11_50a1f" MIMETYPE="application/xmlPage">
+                <FLocat href="file://./xmlPAGE/11_50a1f_default.xml" LOCTYPE="URL"/>
+            </file>
+            <file ID="file_12_0e915" MIMETYPE="application/xmlPage">
+                <FLocat href="file://./xmlPAGE/12_0e915_default.xml" LOCTYPE="URL"/>
+            </file>
+            <file ID="file_13_6a947" MIMETYPE="application/xmlPage">
+                <FLocat href="file://./xmlPAGE/13_6a947_default.xml" LOCTYPE="URL"/>
+            </file>
+            <file ID="file_14_ccd8a" MIMETYPE="application/xmlPage">
+                <FLocat href="file://./xmlPAGE/14_ccd8a_default.xml" LOCTYPE="URL"/>
+            </file>
+            <file ID="file_15_c2e07" MIMETYPE="application/xmlPage">
+                <FLocat href="file://./xmlPAGE/15_c2e07_default.xml" LOCTYPE="URL"/>
+            </file>
+            <file ID="file_16_5ab55" MIMETYPE="application/xmlPage">
+                <FLocat href="file://./xmlPAGE/16_5ab55_default.xml" LOCTYPE="URL"/>
+            </file>
+            <file ID="file_17_eed6c" MIMETYPE="application/xmlPage">
+                <FLocat href="file://./xmlPAGE/17_eed6c_default.xml" LOCTYPE="URL"/>
+            </file>
+        </fileGrp>
+        <fileGrp ID="VERS3"> 
+            
+        </fileGrp>         
+    </fileSec>
+    
+</mets>
+    
+    
