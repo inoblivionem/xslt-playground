@@ -28,8 +28,8 @@
                     <surface>
                         <xsl:element name="graphic">
                             <xsl:attribute name="uri"><xsl:value-of select="pc:PcGts/pc:Page/@imageFilename"></xsl:value-of></xsl:attribute>
-                            <xsl:attribute name="width"><xsl:value-of select="pc:PcGts/pc:Page/@imageWidth"/></xsl:attribute>
-                            <xsl:attribute name="height"><xsl:value-of select="pc:PcGts/pc:Page/@imageHeight"/></xsl:attribute>
+                            <xsl:attribute name="width"><xsl:value-of select="concat(pc:PcGts/pc:Page/@imageWidth,'px')"/></xsl:attribute>
+                            <xsl:attribute name="height"><xsl:value-of select="concat(pc:PcGts/pc:Page/@imageHeight,'px')"/></xsl:attribute>
                         </xsl:element>
                         <xsl:for-each select="pc:PcGts/pc:Page/pc:TextRegion/pc:TextLine">
                             <xsl:element name="zone"><xsl:attribute name="xml:id"><xsl:value-of select="@id"/></xsl:attribute>
