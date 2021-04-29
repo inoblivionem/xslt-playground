@@ -31,6 +31,3 @@ Each `mets:file` corresponds to a `tei:surfaceGrp`.
 * each `mets:fileSec/mets:fileGrp` is a `tei:div` (their ids are the same)
 * each `mets:file` is a `tei:p`. Their @ref match with `tei:surfaceGrp`'s ids generated before
 * each `pc:TextLine` from  each document mentionned in `mets:file` is a `tei:l` with a matching ref with `tei:zone`'s ids in `tei:facsimile`
-
-# issues
-I don't know how to manage "dummyblocs".
