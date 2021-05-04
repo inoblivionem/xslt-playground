@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <standOff>
+    	<app>
+		    <rdg wit="#text1-tok">
+		        <ptr
+		target="text1-tok.xml#text1-1-1-1"/>
+		    </rdg>
+		    <rdg
+		wit="#text1-tok" type="type">
+		        <ptr
+		target="text2-tok.xml#text1-1-1-1"/>
+		    </rdg>
+		    <rdg
+		wit="#text1-tok" type="spelling">
+		        <ptr
+		target="text3-tok.xml#text3-1-1-1"/>
+		    </rdg>
+		</app>
+		<app>
+		    <rdg wit="#text1-tok" type="spelling">
+		        <ptr
+		target="text1-tok.xml#text1-1-1-7"/>
+		    </rdg>
+		    <rdgGrp type="hello">
+		        <rdg
+		wit="#text1-tok">
+		            <ptr
+		target="text2-tok.xml#text1-1-1-6"/>
+		        	</rdg>
+		        <rdg
+		wit="#text1-tok">
+		            <ptr
+		target="text3-tok.xml#text3-1-1-2"/>
+		        </rdg>
+		    </rdgGrp>
+		</app>
+		<app>
+		    <rdg wit="#text1-tok">
+		        <ptr
+		target="text1-tok.xml#text1-1-1-46"/>
+		    </rdg>
+		    <rdg
+		wit="#text1-tok" type="repetition">
+		        <ptr
+		target="text2-tok.xml#text1-1-1-80"/>
+		    </rdg>
+		</app>
+	</standOff>
+</TEI>

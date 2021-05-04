@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="text3">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Text 1</title>
+                <author>CoreBuilder</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>example file</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p> CoreBuilder example file </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div><p><w xml:id="text3-1-1-1">Lorem</w><w xml:id="text3-1-1-2">Ipsum</w><w xml:id="text3-1-1-3">Dolor</w><w xml:id="text3-1-1-4">Sit</w><w xml:id="text3-1-1-5">Amet,</w><w xml:id="text3-1-1-6">consectetur</w><w xml:id="text3-1-1-7">adipiscing</w><w xml:id="text3-1-1-8">elit.</w><w xml:id="text3-1-1-9">Sed</w><w xml:id="text3-1-1-10">non</w><w xml:id="text3-1-1-11">risus.
+</w><w xml:id="text3-1-1-12">Suspendisse</w><w xml:id="text3-1-1-13">lectus</w><w xml:id="text3-1-1-14">tortor,</w><w xml:id="text3-1-1-15">dignissim</w><w xml:id="text3-1-1-16">sit</w><w xml:id="text3-1-1-17">amet,</w><w xml:id="text3-1-1-18">adipiscing</w><w xml:id="text3-1-1-19">nec,</w><w xml:id="text3-1-1-20">ultricies</w><w xml:id="text3-1-1-21">sed,
+</w><w xml:id="text3-1-1-22">dolor.</w><w xml:id="text3-1-1-23">Cras</w><w xml:id="text3-1-1-24">elementum</w><w xml:id="text3-1-1-25">ultrices</w><w xml:id="text3-1-1-26">diam.</w><w xml:id="text3-1-1-27">Maecenas</w><w xml:id="text3-1-1-28">ligula</w><w xml:id="text3-1-1-29">massa,</w><w xml:id="text3-1-1-30">varius</w><w xml:id="text3-1-1-31">a,</w><w xml:id="text3-1-1-32">semper
+</w><w xml:id="text3-1-1-33">congue,</w><w xml:id="text3-1-1-34">euismod</w><w xml:id="text3-1-1-35">non,</w><w xml:id="text3-1-1-36">mi.</w><w xml:id="text3-1-1-37">Proin</w><w xml:id="text3-1-1-38">porttitor,</w><w xml:id="text3-1-1-39">orci</w><w xml:id="text3-1-1-40">nec</w><w xml:id="text3-1-1-41">nonummy</w><w xml:id="text3-1-1-42">molestie,</w><w xml:id="text3-1-1-43">enim</w><w xml:id="text3-1-1-44">est
+</w><w xml:id="text3-1-1-45">eleifend</w><w xml:id="text3-1-1-46">mi,</w><w xml:id="text3-1-1-47">non</w><w xml:id="text3-1-1-48">fermentum</w><w xml:id="text3-1-1-49">diam</w><w xml:id="text3-1-1-50">nisl</w><w xml:id="text3-1-1-51">sit</w><w xml:id="text3-1-1-52">amet</w><w xml:id="text3-1-1-53">erat.</w><w xml:id="text3-1-1-54">Duis</w><w xml:id="text3-1-1-55">semper.</w><w xml:id="text3-1-1-56">Duis</w><w xml:id="text3-1-1-57">arcu
+</w><w xml:id="text3-1-1-58">massa,</w><w xml:id="text3-1-1-59">scelerisque</w><w xml:id="text3-1-1-60">vitae,</w><w xml:id="text3-1-1-61">consequat</w><w xml:id="text3-1-1-62">in,</w><w xml:id="text3-1-1-63">pretium</w><w xml:id="text3-1-1-64">a,</w><w xml:id="text3-1-1-65">enim.</w><w xml:id="text3-1-1-66">Pellentesque</w><w xml:id="text3-1-1-67">congue.</w><w xml:id="text3-1-1-68">Ut
+</w><w xml:id="text3-1-1-69">in</w><w xml:id="text3-1-1-70">risus</w><w xml:id="text3-1-1-71">volutpat</w><w xml:id="text3-1-1-72">libero</w><w xml:id="text3-1-1-73">pharetra</w><w xml:id="text3-1-1-74">tempor.</w><w xml:id="text3-1-1-75">Cras</w><w xml:id="text3-1-1-76">vestibulum</w><w xml:id="text3-1-1-77">bibendum</w><w xml:id="text3-1-1-78">augue.
+</w><w xml:id="text3-1-1-79">Praesent</w><w xml:id="text3-1-1-80">egestas</w><w xml:id="text3-1-1-81">leo</w><w xml:id="text3-1-1-82">in</w><w xml:id="text3-1-1-83">pede.</w><w xml:id="text3-1-1-84">Praesent</w><w xml:id="text3-1-1-85">blandit</w><w xml:id="text3-1-1-86">odio</w><w xml:id="text3-1-1-87">eu</w><w xml:id="text3-1-1-88">enim.</w><w xml:id="text3-1-1-89">Pellentesque</w><w xml:id="text3-1-1-90">sed
+</w><w xml:id="text3-1-1-91">dui</w><w xml:id="text3-1-1-92">ut</w><w xml:id="text3-1-1-93">augue</w><w xml:id="text3-1-1-94">blandit</w><w xml:id="text3-1-1-95">sodales.</w><w xml:id="text3-1-1-96">Vestibulum</w><w xml:id="text3-1-1-97">ante</w><w xml:id="text3-1-1-98">ipsum</w><w xml:id="text3-1-1-99">primis</w><w xml:id="text3-1-1-100">in</w><w xml:id="text3-1-1-101">faucibus</w><w xml:id="text3-1-1-102">orci
+</w><w xml:id="text3-1-1-103">luctus</w><w xml:id="text3-1-1-104">et</w><w xml:id="text3-1-1-105">ultrices</w><w xml:id="text3-1-1-106">posuere</w><w xml:id="text3-1-1-107">cubilia</w><w xml:id="text3-1-1-108">Curae;</w><w xml:id="text3-1-1-109">Aliquam</w><w xml:id="text3-1-1-110">nibh.</w><w xml:id="text3-1-1-111">Mauris</w><w xml:id="text3-1-1-112">ac</w><w xml:id="text3-1-1-113">mauris</w><w xml:id="text3-1-1-114">sed
+</w><w xml:id="text3-1-1-115">pede</w><w xml:id="text3-1-1-116">pellentesque</w><w xml:id="text3-1-1-117">fermentum.</w><w xml:id="text3-1-1-118">Maecenas</w><w xml:id="text3-1-1-119">adipiscing</w><w xml:id="text3-1-1-120">ante</w><w xml:id="text3-1-1-121">non</w><w xml:id="text3-1-1-122">diam</w><w xml:id="text3-1-1-123">sodales
+</w><w xml:id="text3-1-1-124">hendrerit.</w></p><p><w xml:id="text3-1-2-1">Ut</w><w xml:id="text3-1-2-2">velit</w><w xml:id="text3-1-2-3">mauris,</w><w xml:id="text3-1-2-4">egestas</w><w xml:id="text3-1-2-5">sed,</w><w xml:id="text3-1-2-6">gravida</w><w xml:id="text3-1-2-7">nec,</w><w xml:id="text3-1-2-8">ornare</w><w xml:id="text3-1-2-9">ut,</w><w xml:id="text3-1-2-10">mi.</w><w xml:id="text3-1-2-11">Aenean</w><w xml:id="text3-1-2-12">ut</w><w xml:id="text3-1-2-13">orci</w><w xml:id="text3-1-2-14">vel
+</w><w xml:id="text3-1-2-15">massa</w><w xml:id="text3-1-2-16">suscipit</w><w xml:id="text3-1-2-17">pulvinar.</w><w xml:id="text3-1-2-18">Nulla</w><w xml:id="text3-1-2-19">sollicitudin.</w><w xml:id="text3-1-2-20">Fusce</w><w xml:id="text3-1-2-21">varius,</w><w xml:id="text3-1-2-22">ligula</w><w xml:id="text3-1-2-23">non</w><w xml:id="text3-1-2-24">tempus
+</w><w xml:id="text3-1-2-25">aliquam,</w><w xml:id="text3-1-2-26">nunc</w><w xml:id="text3-1-2-27">turpis</w><w xml:id="text3-1-2-28">ullamcorper</w><w xml:id="text3-1-2-29">nibh,</w><w xml:id="text3-1-2-30">in</w><w xml:id="text3-1-2-31">tempus</w><w xml:id="text3-1-2-32">sapien</w><w xml:id="text3-1-2-33">eros</w><w xml:id="text3-1-2-34">vitae</w><w xml:id="text3-1-2-35">ligula.
+</w><w xml:id="text3-1-2-36">Pellentesque</w><w xml:id="text3-1-2-37">rhoncus</w><w xml:id="text3-1-2-38">nunc</w><w xml:id="text3-1-2-39">et</w><w xml:id="text3-1-2-40">augue.</w><w xml:id="text3-1-2-41">Integer</w><w xml:id="text3-1-2-42">id</w><w xml:id="text3-1-2-43">felis.</w><w xml:id="text3-1-2-44">Curabitur</w><w xml:id="text3-1-2-45">aliquet
+</w><w xml:id="text3-1-2-46">pellentesque</w><w xml:id="text3-1-2-47">diam.</w><w xml:id="text3-1-2-48">Integer</w><w xml:id="text3-1-2-49">quis</w><w xml:id="text3-1-2-50">metus</w><w xml:id="text3-1-2-51">vitae</w><w xml:id="text3-1-2-52">elit</w><w xml:id="text3-1-2-53">lobortis</w><w xml:id="text3-1-2-54">egestas.</w><w xml:id="text3-1-2-55">Lorem</w><w xml:id="text3-1-2-56">ipsum
+</w><w xml:id="text3-1-2-57">dolor</w><w xml:id="text3-1-2-58">sit</w><w xml:id="text3-1-2-59">amet,</w><w xml:id="text3-1-2-60">consectetuer</w><w xml:id="text3-1-2-61">adipiscing</w><w xml:id="text3-1-2-62">elit.</w><w xml:id="text3-1-2-63">Morbi</w><w xml:id="text3-1-2-64">vel</w><w xml:id="text3-1-2-65">erat</w><w xml:id="text3-1-2-66">non</w><w xml:id="text3-1-2-67">mauris
+</w><w xml:id="text3-1-2-68">convallis</w><w xml:id="text3-1-2-69">vehicula.</w><w xml:id="text3-1-2-70">Nulla</w><w xml:id="text3-1-2-71">et</w><w xml:id="text3-1-2-72">sapien.</w><w xml:id="text3-1-2-73">Integer</w><w xml:id="text3-1-2-74">tortor</w><w xml:id="text3-1-2-75">tellus,</w><w xml:id="text3-1-2-76">aliquam</w><w xml:id="text3-1-2-77">faucibus,
+</w><w xml:id="text3-1-2-78">convallis</w><w xml:id="text3-1-2-79">id,</w><w xml:id="text3-1-2-80">congue</w><w xml:id="text3-1-2-81">eu,</w><w xml:id="text3-1-2-82">quam.</w><w xml:id="text3-1-2-83">Mauris</w><w xml:id="text3-1-2-84">ullamcorper</w><w xml:id="text3-1-2-85">felis</w><w xml:id="text3-1-2-86">vitae</w><w xml:id="text3-1-2-87">erat.</w><w xml:id="text3-1-2-88">Proin
+</w><w xml:id="text3-1-2-89">feugiat,</w><w xml:id="text3-1-2-90">augue</w><w xml:id="text3-1-2-91">non</w><w xml:id="text3-1-2-92">elementum</w><w xml:id="text3-1-2-93">posuere,</w><w xml:id="text3-1-2-94">metus</w><w xml:id="text3-1-2-95">purus</w><w xml:id="text3-1-2-96">iaculis</w><w xml:id="text3-1-2-97">lectus,</w><w xml:id="text3-1-2-98">et</w><w xml:id="text3-1-2-99">tristique
+</w><w xml:id="text3-1-2-100">ligula</w><w xml:id="text3-1-2-101">justo</w><w xml:id="text3-1-2-102">vitae</w><w xml:id="text3-1-2-103">magna.</w></p></div>
+        </body>
+    </text>
+</TEI>

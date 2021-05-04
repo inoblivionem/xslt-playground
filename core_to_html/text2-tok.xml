@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="text2">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Text 2</title>
+                <author>CoreBuilder</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>example file</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>CoreBuilder example file 2</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div><p><w xml:id="text2-1-1-1">LOREM</w> <w xml:id="text2-1-1-2">IPSUM</w> <w xml:id="text2-1-1-3">DOLOR</w> <w xml:id="text2-1-1-4">SIT</w> <w xml:id="text2-1-1-5">AMET,</w> <w xml:id="text2-1-1-6">CONSECTETUR</w> <w xml:id="text2-1-1-7">ADIPISCING</w> <w xml:id="text2-1-1-8">ELIT.</w> <w xml:id="text2-1-1-9">SED</w> <w xml:id="text2-1-1-10">NON</w> <w xml:id="text2-1-1-11">RISUS.
+</w> <w xml:id="text2-1-1-12">SUSPENDISSE</w> <w xml:id="text2-1-1-13">LECTUS</w> <w xml:id="text2-1-1-14">TORTOR,</w> <w xml:id="text2-1-1-15">DIGNISSIM</w> <w xml:id="text2-1-1-16">SIT</w> <w xml:id="text2-1-1-17">AMET,</w> <w xml:id="text2-1-1-18">ADIPISCING</w> <w xml:id="text2-1-1-19">NEC,</w> <w xml:id="text2-1-1-20">ULTRICIES</w> <w xml:id="text2-1-1-21">SED,
+</w> <w xml:id="text2-1-1-22">DOLOR.</w> <w xml:id="text2-1-1-23">CRAS</w> <w xml:id="text2-1-1-24">ELEMENTUM</w> <w xml:id="text2-1-1-25">ULTRICES</w> <w xml:id="text2-1-1-26">DIAM.</w> <w xml:id="text2-1-1-27">MAECENAS</w> <w xml:id="text2-1-1-28">LIGULA</w> <w xml:id="text2-1-1-29">MASSA,</w> <w xml:id="text2-1-1-30">VARIUS</w> <w xml:id="text2-1-1-31">A,</w> <w xml:id="text2-1-1-32">SEMPER
+</w> <w xml:id="text2-1-1-33">CONGUE,</w> <w xml:id="text2-1-1-34">EUISMOD</w> <w xml:id="text2-1-1-35">NON,</w> <w xml:id="text2-1-1-36">MI.</w> <w xml:id="text2-1-1-37">PROIN</w> <w xml:id="text2-1-1-38">PORTTITOR,</w> <w xml:id="text2-1-1-39">ORCI</w> <w xml:id="text2-1-1-40">NEC</w> <w xml:id="text2-1-1-41">NONUMMY</w> <w xml:id="text2-1-1-42">MOLESTIE,</w> <w xml:id="text2-1-1-43">ENIM</w> <w xml:id="text2-1-1-44">EST
+</w> <w xml:id="text2-1-1-45">ELEIFEND</w> <w xml:id="text2-1-1-46">MI,</w> <w xml:id="text2-1-1-47">NON</w> <w xml:id="text2-1-1-48">FERMENTUM</w> <w xml:id="text2-1-1-49">DIAM</w> <w xml:id="text2-1-1-50">NISL</w> <w xml:id="text2-1-1-51">SIT</w> <w xml:id="text2-1-1-52">AMET</w> <w xml:id="text2-1-1-53">ERAT.</w> <w xml:id="text2-1-1-54">DUIS</w> <w xml:id="text2-1-1-55">SEMPER.</w> <w xml:id="text2-1-1-56">DUIS</w> <w xml:id="text2-1-1-57">ARCU
+</w> <w xml:id="text2-1-1-58">MASSA,</w> <w xml:id="text2-1-1-59">SCELERISQUE</w> <w xml:id="text2-1-1-60">VITAE,</w> <w xml:id="text2-1-1-61">CONSEQUAT</w> <w xml:id="text2-1-1-62">IN,</w> <w xml:id="text2-1-1-63">PRETIUM</w> <w xml:id="text2-1-1-64">A,</w> <w xml:id="text2-1-1-65">ENIM.</w> <w xml:id="text2-1-1-66">PELLENTESQUE</w> <w xml:id="text2-1-1-67">CONGUE.</w> <w xml:id="text2-1-1-68">UT
+</w> <w xml:id="text2-1-1-69">IN</w> <w xml:id="text2-1-1-70">RISUS</w> <w xml:id="text2-1-1-71">VOLUTPAT</w> <w xml:id="text2-1-1-72">LIBERO</w> <w xml:id="text2-1-1-73">PHARETRA</w> <w xml:id="text2-1-1-74">TEMPOR.</w> <w xml:id="text2-1-1-75">CRAS</w> <w xml:id="text2-1-1-76">VESTIBULUM</w> <w xml:id="text2-1-1-77">BIBENDUM</w> <w xml:id="text2-1-1-78">AUGUE.
+</w> <w xml:id="text2-1-1-79">PRAESENT</w> <w xml:id="text2-1-1-80">EGESTAS</w> <w xml:id="text2-1-1-81">LEO</w> <w xml:id="text2-1-1-82">IN</w> <w xml:id="text2-1-1-83">PEDE.</w> <w xml:id="text2-1-1-84">PRAESENT</w> <w xml:id="text2-1-1-85">BLANDIT</w> <w xml:id="text2-1-1-86">ODIO</w> <w xml:id="text2-1-1-87">EU</w> <w xml:id="text2-1-1-88">ENIM.</w> <w xml:id="text2-1-1-89">PELLENTESQUE</w> <w xml:id="text2-1-1-90">SED
+</w> <w xml:id="text2-1-1-91">DUI</w> <w xml:id="text2-1-1-92">UT</w> <w xml:id="text2-1-1-93">AUGUE</w> <w xml:id="text2-1-1-94">BLANDIT</w> <w xml:id="text2-1-1-95">SODALES.</w> <w xml:id="text2-1-1-96">VESTIBULUM</w> <w xml:id="text2-1-1-97">ANTE</w> <w xml:id="text2-1-1-98">IPSUM</w> <w xml:id="text2-1-1-99">PRIMIS</w> <w xml:id="text2-1-1-100">IN</w> <w xml:id="text2-1-1-101">FAUCIBUS</w> <w xml:id="text2-1-1-102">ORCI
+</w> <w xml:id="text2-1-1-103">LUCTUS</w> <w xml:id="text2-1-1-104">ET</w> <w xml:id="text2-1-1-105">ULTRICES</w> <w xml:id="text2-1-1-106">POSUERE</w> <w xml:id="text2-1-1-107">CUBILIA</w> <w xml:id="text2-1-1-108">CURAE;</w> <w xml:id="text2-1-1-109">ALIQUAM</w> <w xml:id="text2-1-1-110">NIBH.</w> <w xml:id="text2-1-1-111">MAURIS</w> <w xml:id="text2-1-1-112">AC</w> <w xml:id="text2-1-1-113">MAURIS</w> <w xml:id="text2-1-1-114">SED
+</w> <w xml:id="text2-1-1-115">PEDE</w> <w xml:id="text2-1-1-116">PELLENTESQUE</w> <w xml:id="text2-1-1-117">FERMENTUM.</w> <w xml:id="text2-1-1-118">MAECENAS</w> <w xml:id="text2-1-1-119">ADIPISCING</w> <w xml:id="text2-1-1-120">ANTE</w> <w xml:id="text2-1-1-121">NON</w> <w xml:id="text2-1-1-122">DIAM</w> <w xml:id="text2-1-1-123">SODALES
+</w> <w xml:id="text2-1-1-124">HENDRERIT.
+</w> </p><p><w xml:id="text2-1-2-1">UT</w> <w xml:id="text2-1-2-2">VELIT</w> <w xml:id="text2-1-2-3">MAURIS,</w> <w xml:id="text2-1-2-4">EGESTAS</w> <w xml:id="text2-1-2-5">SED,</w> <w xml:id="text2-1-2-6">GRAVIDA</w> <w xml:id="text2-1-2-7">NEC,</w> <w xml:id="text2-1-2-8">ORNARE</w> <w xml:id="text2-1-2-9">UT,</w> <w xml:id="text2-1-2-10">MI.</w> <w xml:id="text2-1-2-11">AENEAN</w> <w xml:id="text2-1-2-12">UT</w> <w xml:id="text2-1-2-13">ORCI</w> <w xml:id="text2-1-2-14">VEL
+</w> <w xml:id="text2-1-2-15">MASSA</w> <w xml:id="text2-1-2-16">SUSCIPIT</w> <w xml:id="text2-1-2-17">PULVINAR.</w> <w xml:id="text2-1-2-18">NULLA</w> <w xml:id="text2-1-2-19">SOLLICITUDIN.</w> <w xml:id="text2-1-2-20">FUSCE</w> <w xml:id="text2-1-2-21">VARIUS,</w> <w xml:id="text2-1-2-22">LIGULA</w> <w xml:id="text2-1-2-23">NON</w> <w xml:id="text2-1-2-24">TEMPUS
+</w> <w xml:id="text2-1-2-25">ALIQUAM,</w> <w xml:id="text2-1-2-26">NUNC</w> <w xml:id="text2-1-2-27">TURPIS</w> <w xml:id="text2-1-2-28">ULLAMCORPER</w> <w xml:id="text2-1-2-29">NIBH,</w> <w xml:id="text2-1-2-30">IN</w> <w xml:id="text2-1-2-31">TEMPUS</w> <w xml:id="text2-1-2-32">SAPIEN</w> <w xml:id="text2-1-2-33">EROS</w> <w xml:id="text2-1-2-34">VITAE</w> <w xml:id="text2-1-2-35">LIGULA.
+</w> <w xml:id="text2-1-2-36">PELLENTESQUE</w> <w xml:id="text2-1-2-37">RHONCUS</w> <w xml:id="text2-1-2-38">NUNC</w> <w xml:id="text2-1-2-39">ET</w> <w xml:id="text2-1-2-40">AUGUE.</w> <w xml:id="text2-1-2-41">INTEGER</w> <w xml:id="text2-1-2-42">ID</w> <w xml:id="text2-1-2-43">FELIS.</w> <w xml:id="text2-1-2-44">CURABITUR</w> <w xml:id="text2-1-2-45">ALIQUET
+</w> <w xml:id="text2-1-2-46">PELLENTESQUE</w> <w xml:id="text2-1-2-47">DIAM.</w> <w xml:id="text2-1-2-48">INTEGER</w> <w xml:id="text2-1-2-49">QUIS</w> <w xml:id="text2-1-2-50">METUS</w> <w xml:id="text2-1-2-51">VITAE</w> <w xml:id="text2-1-2-52">ELIT</w> <w xml:id="text2-1-2-53">LOBORTIS</w> <w xml:id="text2-1-2-54">EGESTAS.</w> <w xml:id="text2-1-2-55">LOREM</w> <w xml:id="text2-1-2-56">IPSUM
+</w> <w xml:id="text2-1-2-57">DOLOR</w> <w xml:id="text2-1-2-58">SIT</w> <w xml:id="text2-1-2-59">AMET,</w> <w xml:id="text2-1-2-60">CONSECTETUER</w> <w xml:id="text2-1-2-61">ADIPISCING</w> <w xml:id="text2-1-2-62">ELIT.</w> <w xml:id="text2-1-2-63">MORBI</w> <w xml:id="text2-1-2-64">VEL</w> <w xml:id="text2-1-2-65">ERAT</w> <w xml:id="text2-1-2-66">NON</w> <w xml:id="text2-1-2-67">MAURIS
+</w> <w xml:id="text2-1-2-68">CONVALLIS</w> <w xml:id="text2-1-2-69">VEHICULA.</w> <w xml:id="text2-1-2-70">NULLA</w> <w xml:id="text2-1-2-71">ET</w> <w xml:id="text2-1-2-72">SAPIEN.</w> <w xml:id="text2-1-2-73">INTEGER</w> <w xml:id="text2-1-2-74">TORTOR</w> <w xml:id="text2-1-2-75">TELLUS,</w> <w xml:id="text2-1-2-76">ALIQUAM</w> <w xml:id="text2-1-2-77">FAUCIBUS,
+</w> <w xml:id="text2-1-2-78">CONVALLIS</w> <w xml:id="text2-1-2-79">ID,</w> <w xml:id="text2-1-2-80">CONGUE</w> <w xml:id="text2-1-2-81">EU,</w> <w xml:id="text2-1-2-82">QUAM.</w> <w xml:id="text2-1-2-83">MAURIS</w> <w xml:id="text2-1-2-84">ULLAMCORPER</w> <w xml:id="text2-1-2-85">FELIS</w> <w xml:id="text2-1-2-86">VITAE</w> <w xml:id="text2-1-2-87">ERAT.</w> <w xml:id="text2-1-2-88">PROIN
+</w> <w xml:id="text2-1-2-89">FEUGIAT,</w> <w xml:id="text2-1-2-90">AUGUE</w> <w xml:id="text2-1-2-91">NON</w> <w xml:id="text2-1-2-92">ELEMENTUM</w> <w xml:id="text2-1-2-93">POSUERE,</w> <w xml:id="text2-1-2-94">METUS</w> <w xml:id="text2-1-2-95">PURUS</w> <w xml:id="text2-1-2-96">IACULIS</w> <w xml:id="text2-1-2-97">LECTUS,</w> <w xml:id="text2-1-2-98">ET</w> <w xml:id="text2-1-2-99">TRISTIQUE
+</w> <w xml:id="text2-1-2-100">LIGULA</w> <w xml:id="text2-1-2-101">JUSTO</w> <w xml:id="text2-1-2-102">VITAE</w> <w xml:id="text2-1-2-103">MAGNA.</w> <w xml:id="text2-1-2-104">
+</w> </p></div>
+        </body>
+    </text>
+</TEI>
