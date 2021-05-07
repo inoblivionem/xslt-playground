@@ -13,8 +13,8 @@ My friend asked me to put all the `pc:TextRegion` in an element `tei:facsimile`,
 I used this structure for each file mentionned in `mets:fileSec/mets:fileGrp/mets:file` :
 ```
 <facsimile>
-    <surfaceGrp @xml:id="">
-    <surface>
+    <surfaceGrp>
+    <surface  @xml:id="">
         <graphic @url="" @width="" @height="">
         <zone @xml:id="" @points="">
             <zone @xml:id="" @points=""/>
@@ -23,11 +23,12 @@ I used this structure for each file mentionned in `mets:fileSec/mets:fileGrp/met
     <surfaceGrp>
 </facsimile>
 ```
-Each `mets:file` corresponds to a `tei:surfaceGrp`.
+Each `mets:file` corresponds to a `tei:surface`.
 * `tei:graphic` contains informations about the image that are in `pc:Page`
 * `tei:zone` stands for each `pc:TextRegion`
 * if `pc:TextRegion` contains one or several `pc:TextLine`, `tei:zone` are created in the `tei:zone` that already exist and contains informations about the `pc:TextLine`
 ## for the text
 * each `mets:fileSec/mets:fileGrp` is a `tei:div` (their ids are the same)
-* each `mets:file` is a `tei:p`. Their @ref match with `tei:surfaceGrp`'s ids generated before
-* each `pc:TextLine` from  each document mentionned in `mets:file` is a `tei:l` with a matching ref with `tei:zone`'s ids in `tei:facsimile`
+* all the text is in a `tei:p`
+* each `mets:file` is symbolized by a `tei:pb`. Their `@source` match with `tei:surface`'s ids generated before
+* each `pc:TextLine`'s id from each document mentionned in `mets:file` is a `tei:lb` with a matching ref with `tei:zone`'s ids in `tei:facsimile`. The text `pc:TextLine//pc:Unicode` of each line is pasted just after the `tei:lb`. Their `@source` match with `tei:zone`'s ids generated before.
