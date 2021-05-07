@@ -25,18 +25,24 @@
                                 <xsl:value-of select="mets:mets/mets:metsHdr/mets:agent/mets:name"/>
                             </author>
                         </titleStmt>
+                        
+                        <publicationStmt>
+                            <p></p>
+                        </publicationStmt>
+                        <sourceDesc><p></p></sourceDesc>
                     </fileDesc>
                 </teiHeader>
                 <facsimile>
+                   <surfaceGrp>
                     <xsl:for-each select="mets:mets/mets:fileSec/mets:fileGrp/mets:file">
                         <xsl:variable name="filename">
                             <xsl:value-of select="substring-after(mets:FLocat/@href, '/./')"/>
                         </xsl:variable>
-                        <xsl:element name="surfaceGrp">
+                        <xsl:element name="surface">
                             <xsl:attribute name="xml:id">
                                 <xsl:value-of select="@ID"/>
                             </xsl:attribute>
-                            <xsl:element name="surface">
+                            
                                 <xsl:element name="graphic">
                                     <xsl:attribute name="url"><xsl:value-of select="document($filename)//pc:Page/@imageFilename"/></xsl:attribute>
                                     <xsl:attribute name="width"><xsl:value-of select="concat(document($filename)//pc:Page/@imageWidth,'px')"/></xsl:attribute>
@@ -44,9 +50,10 @@
                                 </xsl:element>
                                 <xsl:for-each select="document($filename)//pc:TextRegion">
                                     <xsl:element name="zone">
+                                        <xsl:if test="not(descendant::pc:TextLine)">
                                         <xsl:attribute name="xml:id">
                                             <xsl:value-of select="@id"/>
-                                        </xsl:attribute>
+                                        </xsl:attribute></xsl:if>
                                         <xsl:if test="pc:Coords/@points">
                                             <xsl:attribute name="points">
                                                 <xsl:value-of select="pc:Coords/@points"/>
@@ -63,9 +70,10 @@
                                         </xsl:for-each>
                                     </xsl:element>
                                 </xsl:for-each>
-                            </xsl:element>
+                            
                         </xsl:element>
                     </xsl:for-each>
+                   </surfaceGrp> 
                 </facsimile>
                 <text>
                     <body>
