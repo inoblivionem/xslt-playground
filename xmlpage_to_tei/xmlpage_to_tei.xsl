@@ -17,6 +17,12 @@
                             <author><xsl:value-of select="pc:PcGts/pc:Metadata/pc:Creator"/>
                             </author>
                         </titleStmt>
+                        <publicationStmt>
+                            <p></p>
+                        </publicationStmt>
+                        <sourceDesc>
+                            <p></p>
+                        </sourceDesc>
                     </fileDesc>
                     <revisionDesc>
                         <xsl:element name="change"><xsl:attribute name="when"><xsl:value-of select="pc:PcGts/pc:Metadata/pc:Created"/></xsl:attribute>Creation</xsl:element>
@@ -24,10 +30,10 @@
                     </revisionDesc>
                 </teiHeader>
                 <sourceDoc>
-                    <xsl:element name="surfaceGrp"><xsl:attribute name="xml:id"><xsl:value-of select="pc:PcGts/pc:Page/pc:TextRegion/@id"/></xsl:attribute></xsl:element>
+                    <xsl:element name="surfaceGrp"><xsl:attribute name="xml:id"><xsl:value-of select="pc:PcGts/pc:Page/pc:TextRegion/@id"/></xsl:attribute>
                     <surface>
                         <xsl:element name="graphic">
-                            <xsl:attribute name="uri"><xsl:value-of select="pc:PcGts/pc:Page/@imageFilename"></xsl:value-of></xsl:attribute>
+                            <xsl:attribute name="url"><xsl:value-of select="pc:PcGts/pc:Page/@imageFilename"></xsl:value-of></xsl:attribute>
                             <xsl:attribute name="width"><xsl:value-of select="concat(pc:PcGts/pc:Page/@imageWidth,'px')"/></xsl:attribute>
                             <xsl:attribute name="height"><xsl:value-of select="concat(pc:PcGts/pc:Page/@imageHeight,'px')"/></xsl:attribute>
                         </xsl:element>
@@ -38,6 +44,7 @@
                             </xsl:element>
                         </xsl:for-each>
                     </surface>
+                    </xsl:element>
                 </sourceDoc>
             </TEI>
         </xsl:result-document>
