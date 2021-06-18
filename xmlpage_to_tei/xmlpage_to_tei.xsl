@@ -53,14 +53,6 @@
         </xsl:result-document>
     </xsl:template>
 
-    <xsl:template match="pc:Page//pc:TextRegion" name="TextRegion">
-        <xsl:element name="surfaceGrp">
-            <xsl:copy select=".">
-                <xsl:apply-templates/>
-            </xsl:copy>
-        </xsl:element>
-    </xsl:template>
-
     <xsl:template match="//pc:TextRegion">
         <xsl:element name="surfaceGrp">
             <xsl:attribute name="xml:id">
