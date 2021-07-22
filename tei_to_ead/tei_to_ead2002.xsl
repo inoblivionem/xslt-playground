@@ -14,6 +14,7 @@
             <ead>
                 <eadheader>
                     <eadid>
+                        <xsl:copy-of select="."/>
                         <xsl:value-of
                             select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl/tei:idno[@type = 'ark']"
                         />
