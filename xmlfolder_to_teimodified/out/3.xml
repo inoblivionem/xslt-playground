@@ -1,0 +1,21 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<TEI>
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <publicationStmt>
+            <p>pub3</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>source3</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>text3</p>
+      </body>
+   </text>
+</TEI>
