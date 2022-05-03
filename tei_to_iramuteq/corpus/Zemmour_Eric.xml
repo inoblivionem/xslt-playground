@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="zemmour">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="fr">Elements de campagne présidentielle - Eric Zemmour</title>
+                <author><persName xml:id="lizou">
+                    <forename>Lizou</forename>
+                    <surname>Liz</surname>
+                </persName>
+                    <affiliation>
+                        <orgName>CY Cergy Paris Université</orgName>
+                    </affiliation></author>
+                <author>
+                    <persName xml:id="timmy">
+                        <forename>Ino</forename>
+                        <surname>B</surname>
+                        <affiliation>
+                            <orgName>Université de Tours</orgName>
+                            <orgName>CY Cergy Paris Université</orgName>
+                        </affiliation>
+                    </persName>
+                </author>
+                <respStmt>
+                    <resp>Edité par</resp>
+                    <persName ref="#timmy"/>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcription par</resp>
+                    <persName ref="#lizou"/>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>CY Cergy Paris Université</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/3.0/deed.en">Attribution 3.0
+                        Unported (CC BY 3.0) </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Encodage fait dans le cadre du contrat doctoral de Lizou</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>Pas de correction effectuée</p>
+                </correction>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="fr"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2022-05-02" who="#timmy">Création du fichier</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <group>
+            <text type="programme">
+                <body>
+                    <div>
+                        <p>programme 1</p>
+                    </div>
+                </body>
+            </text>
+            <text type="livret">
+                <body>
+                    <div>
+                        <p></p>
+                    </div>
+                </body>
+            </text>
+        </group>
+    </text>
+</TEI>
+

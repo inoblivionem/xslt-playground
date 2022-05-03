@@ -1,0 +1,11 @@
+**** *candidat_poutou *type_resumeprogramme *theme_presentation
+*-titre 
+NOS VIES VALENT PLUS QUE LEURS PROFITS
+*-titre 
+PHILIPPE POUTOU
+*-presentation n’est pas un professionnel de la politique. Ouvrier licencié, il s’est battu contre Ford pendant 10 ans jusqu’à la fermeture de l’usine de Blanquefort. Il est un travailleur qui ne lâche rien et fait de la politique, s’oppose au grand patronat et veut dégager Macron et tous les politiciens, de droite comme de gauche, au service des classes dominantes. À travers son activité militante, politique et syndicale, son activité d’élu au conseil municipal de Bordeaux, il exprime la nécessité pour celles et ceux d’en bas de se rassembler et de prendre leurs affaires en main 
+                        
+**** *candidat_poutou *type_livret *theme_intro
+*-titre 
+Bonjour les socialos
+*-intro plain text plain text
